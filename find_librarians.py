@@ -29,19 +29,19 @@ def find_librarians():
                 start_index = mention.start()
                 if (start_index > 0):
                     snippet = line[start_index-30:start_index+50]
-                    results.write(ID + ',' + statement_type + ',' + snippet + '\n')
+                    results.write(ID + ',' + statement_type + ',' + '"' + snippet + '"' + '\n')
             start_index = 0
             for mention in re.finditer('repositor', line):
                 start_index = mention.start()
                 if (start_index > 0):
                     snippet = line[start_index-30:start_index+50]
-                    results.write(ID + ',' + statement_type + ',' + snippet + '\n')
+                    results.write(ID + ',' + statement_type + ',' + '"' + snippet + '"' + '\n')
             start_index = 0
             for mention in re.finditer('librar', line):
                 start_index = mention.start()
                 if (start_index > 0):
                     snippet = line[start_index-30:start_index+50]
-                    results.write(ID + ',' + statement_type + ',' + snippet + '\n')
+                    results.write(ID + ',' + statement_type + ',' + '"' + snippet + '"' + '\n')
             
             # find gratitude statements    
             statement_type = 'gratitude'
@@ -50,19 +50,19 @@ def find_librarians():
                 start_index = mention.start()
                 if (start_index > 0):
                     snippet = line[start_index-30:start_index+50]
-                    results.write(ID + ',' + statement_type + ',' + snippet + '\n')  
+                    results.write(ID + ',' + statement_type + ',' + '"' + snippet + '"' + '\n')  
             start_index = 0
             for mention in re.finditer('grateful', line):
                 start_index = mention.start()
                 if (start_index > 0):
                     snippet = line[start_index-30:start_index+50]
-                    results.write(ID + ',' + statement_type + ',' + snippet + '\n')
+                    results.write(ID + ',' + statement_type + ',' + '"' + snippet +  '"' + '\n')
             start_index = 0
             for mention in re.finditer('gratitude', line):
                 start_index = mention.start()
                 if (start_index > 0):
                     snippet = line[start_index-30:start_index+50]
-                    results.write(ID + ',' + statement_type + ',' + snippet + '\n')
+                    results.write(ID + ',' + statement_type + ',' + '"' + snippet + '"' + '\n')
             
             # find permission statements
             statement_type = 'permission'
@@ -71,13 +71,13 @@ def find_librarians():
                 start_index = mention.start()
                 if (start_index > 0):
                     snippet = line[start_index-30:start_index+50]
-                    results.write(ID + ',' + statement_type + ',' + snippet + '\n')
+                    results.write(ID + ',' + statement_type + ',' + '"' + snippet + '"' + '\n')
             start_index = 0
             for mention in re.finditer('permission', line):
                 start_index = mention.start()
                 if (start_index > 0):
                     snippet = line[start_index-30:start_index+50]
-                    results.write(ID + ',' + statement_type + ',' + snippet + '\n')
+                    results.write(ID + ',' + statement_type + ',' + '"' + snippet + '"' + '\n')
     
         text.close
         i = i + 1
