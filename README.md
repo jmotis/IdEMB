@@ -6,6 +6,7 @@ This code is made available under a CC BY-SA 4.0 license: http://creativecommons
 
 The search funtions "find_librarians.py" and "find_librarians_generalized.py" are intended to run on the JSON files provided to IdEM B by JSTOR. These files should be placed in the same folder as the python files before attempting to run the python files. "find_librarians.py" will search for a set of predetermined strings while "find_librarians_generalized.py" will solicit user input as to what string to search for.
 
+------------
 Additional flavors of preloaded searches:
 permissions.py is a simplified version of find_librarians.py that reduces the noise in searching for permissions statements in image captions. 
 
