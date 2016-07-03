@@ -17,3 +17,5 @@ STC.py is preloaded to search for common print-based bibliographcial catalogues
 shelfmark.py is preloaded to search for the term 'shelfmark' and 'classmark'
 
 appendices.py attempts to search for primary source lists at the end of works; best as a finding aid rather than to gather information from the snippet function.
+
+debt.py searches for statements of obligation; noise level is moderately high
