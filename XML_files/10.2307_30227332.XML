@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<article id="10.2307/30227332">
+
+ <!-- <bibl>
+ Book History 2001 4 205 Bassett Troy J. Walter Christina M. Booksellers and Bestsellers: British Book Sales as Documented by "The Bookman", 1891-1906 </bibl>-->
+ <bibl><title level="a">"Monthly Report of the Wholesale Book Trade," </title><title
+   level="j">The Bookman</title> (<imprint><date>February 1897</date></imprint>)
+   <note>epigraph</note></bibl>
+ <bibl>
+  <author>Wallace Kirsop</author>, <title level="a">"Booksellers and Their Customers: Some
+   Reflections on Recent Research,"</title>
+  <title level="j">Book History</title>
+  <imprint><biblScope>1</biblScope> (<date>1998</date>)</imprint>: <citedRange>284</citedRange>. </bibl>
+ <bibl>
+  <author>Richard Altick</author>, <title level="m">The English Common Reader: A Social History of
+   the Mass Read- ing Public, 1800-1900</title>, <imprint><biblScope>2d ed.</biblScope>
+    (<date>1957</date>; <pubPlace>Columbus</pubPlace>: <publisher>Ohio University Press</publisher>,
+    <date>1998</date></imprint>) </bibl>
+ <bibl>
+  <title level="a">"Nineteenth-Century English Best-Sellers: A Further List,"</title>
+  <title level="j">Studies in Bibliography</title>
+  <imprint><biblScope>22</biblScope> (<date>1969</date>)</imprint>: <citedRange>197-206</citedRange>
+ </bibl>
+ <bibl>
+  <title level="a">"Nineteenth-Century English Best-Sellers: A Third List,"</title>
+  <title level="j">Studies in Bibliography </title><imprint><biblScope>39</biblScope>
+    (<date>1986</date>)</imprint>: <citedRange>235-41</citedRange>
+ </bibl>
+ <bibl>
+  <author>Q. D. Leavis</author>'s <title level="m">Fiction and the Reading Public</title>
+    (<imprint><pubPlace>London</pubPlace>: <publisher>Chatto &amp; Windus</publisher>,
+    <date>1932</date></imprint>.) </bibl>
+ <bibl>
+  <author>Desmond Flower</author>'s <title level="m">A Century of Best Sellers, 1830-1930</title>
+    (<imprint><pubPlace>London</pubPlace>: <publisher>National Book Council,</publisher>
+   <date>1934</date></imprint>) </bibl>
+ <bibl>
+  <author>Altick</author>, <title level="m" type="short">English Common Reader</title>,
+   <citedRange>381</citedRange>. </bibl>
+ <bibl>
+  <author>Alice Payne Hackett</author> and <author>James Henry Burke</author>, 80 Years of
+  Bestsellers, 1895-1975 (<imprint><pubPlace>New York</pubPlace>: <publisher>R. R.
+    Bowker</publisher>, <date>1977</date></imprint>). </bibl>
+ <bibl>
+  <author>W. Robertson Nicoll</author>, <title level="a">"Ten Years of 'The Bookman,"'</title>
+  <title level="j">Bookman</title> (<imprint><date>September 1901</date></imprint>):
+   <citedRange>174</citedRange>. </bibl>
+ <bibl>
+  <author>Margaret D. Stetz</author>, <title level="j">Dickens Studies Annual</title>
+  <imprint><biblScope>28</biblScope> (<date>1999</date>)</imprint>: <citedRange>331-32</citedRange>. </bibl>
+ <bibl>
+  <author>Peter Keating</author>'s <title level="m">The Haunted Study: A Social History of the
+   English Novel 1875-1914</title> (<imprint><pubPlace>London</pubPlace>: <publisher>Secker &amp;
+    Warburg</publisher>, <date>1989</date></imprint>), <citedRange>439-45</citedRange>. </bibl>
+ <bibl>
+  <author>Laura J. Miller </author> (<title level="a">"The Best-Seller List as Marketing Tool and
+   Historical Fiction,"</title>
+  <title level="j">Book History</title>
+  <imprint><biblScope>3</biblScope> [<date>2000</date>]</imprint>: <citedRange>286-304</citedRange>) </bibl>
+ <bibl>
+  <author>Resa L. Dudovitz</author>'s <title level="m">The Myth of Superwoman: Women's Bestsellers
+   in France and the United States</title> [<imprint><pubPlace>New York</pubPlace>:
+    <publisher>Routledge</publisher>, <date>1990</date></imprint>], <citedRange>25</citedRange>
+ </bibl>
+ <bibl>
+  <author>Robert Escarpit</author>
+  <title level="m">The Book Revolution</title> [<imprint><pubPlace>London</pubPlace>:
+    <publisher>George C. Harrap</publisher>, <date>1966</date></imprint>],
+   <citedRange>116</citedRange>
+ </bibl>
+
+ <bibl>
+  <title level="m">"The Bookman" Directory of Booksellers, Publishers, and Authors</title>
+    (<imprint><pubPlace>London</pubPlace>: <publisher>Hodder &amp; Stoughton</publisher>,
+    <date>1893</date></imprint>) </bibl>
+ <bibl>
+  <author>Gareth Stedman Jones</author>'s <title level="m">Outcast London</title>
+    (<imprint><pubPlace>Oxford</pubPlace>: <publisher>Clarendon</publisher>,
+   <date>1971</date></imprint>), <citedRange>222 and 136</citedRange>
+ </bibl>
+ <bibl>
+  <author>B. R. Mitchell</author>, <title level="m">British Historical Statistics</title>
+    (<imprint><pubPlace>Cambridge</pubPlace>: <publisher>Cambridge University Press</publisher>,
+    <date>1988</date></imprint>): <citedRange>26-29</citedRange>
+ </bibl>
+ <bibl>
+  <author>Joseph Whitaker</author>, <title level="a">"County and Municipal Directory of England and
+   Wales,"</title> in <title level="s">Whitaker's Almanack</title>
+    (<imprint><pubPlace>London</pubPlace>, <date>1891, 1901</date></imprint>) </bibl>
+ <bibl>
+  <author>Mitchell</author>, <title level="m" type="short">British Historical Statistics</title>,
+   <citedRange>26-29 </citedRange></bibl>
+ <bibl>
+  <author>Mitchell</author>, <title level="m" type="short">British Historical Statistics</title>,
+   <citedRange>26-29</citedRange>
+ </bibl>
+ <bibl>
+  <author>Mitchell</author>, <title level="m" type="short">British Historical Statistics</title>,
+   <citedRange>26-29</citedRange>
+ </bibl>
+ <bibl>
+  <author>Macmillan</author>'s <title level="m">The Net Book Agreement 1899 and the Book War
+   1906-1908</title> (<imprint><pubPlace>Glasgow</pubPlace>: <publisher>Robert Maclehose</publisher>, <date>1924</date></imprint>) </bibl>
+
+</article>

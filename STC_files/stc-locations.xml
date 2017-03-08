@@ -1,0 +1,2503 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="stc.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Short Title Catalogue Location Codes</title>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1">Based on the Locations List from the Short Title Catalogue, this list
+               regularizes abbreviated location information. Superscript numbers are presented
+               in-line. No attempt has been made to update information to reflect subsequent shifts
+               in location of private individuals or collections. Cross-references to ESTC IDs are
+               taken from estc.bl.uk, where possible.</edition>
+            <editor>Meaghan J. Brown</editor>
+            <respStmt>
+               <resp>Transcription and encoding done by</resp>
+               <name>Meaghan J. Brown</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <authority>
+               <name>Meaghan J. Brown</name>
+               <address>
+                  <addrLine>Folger Institute</addrLine>
+                  <addrLine>201 East Capitol St, SE</addrLine>
+                  <addrLine>Washington, DC 20003</addrLine>
+               </address>
+            </authority>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-nc/3.0/deed.en_US"
+                  >Distributed under a Creative Commons Attribution-Share Alike 3.0 Unported
+                  License</licence>
+            </availability>
+            <date>2016</date>
+            <idno type="FolgerShelfmark">Folger Shakespeare Library Z2002 .P7 1976 copy 6</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>A Short-Title Catalogue of Books Printed in England, Scotland, &amp;
+                     Ireland and of English Books Printed Abroad 1475 - 1640</title>
+                  <editor>A.W. Pollard</editor>
+                  <editor>G.R. Redgrave</editor>
+                  <editor>Katharine F. Pantzer</editor>
+                  <editor>W.A. Jackson</editor>
+                  <editor>F.S. Ferguson</editor>
+               </titleStmt>
+               <extent>5 page images</extent>
+               <publicationStmt>
+                  <publisher>The Bibliographical Society</publisher>
+                  <pubPlace>London</pubPlace>
+                  <date>1976-1991</date>
+
+               </publicationStmt>
+            </biblFull>
+
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Location codes are used to designate the library or repository holding a specific
+               copy of a rare book. Three major systems in use today are the Short Title Catalogue
+               location codes, the MARC code list for organizations, and the English Short Title
+               Catalogue location codes, which employ a modified MARC code.</p>
+            <p> The STC codes were originally developed in the 1920s to reference copies listed in
+               Pollard and Redgrave's A Short-Title Catalogue of Books Printed in England, Scotland,
+               &amp; Ireland and of English Books Printed Abroad 1475 - 1640. STC location codes are
+               largely city-based system, so the libraries in London are L, those in Oxford are O,
+               and so on, followed by a number to differentiate them. This system is not wholly
+               consistent, so some major libraries simply have their first initial as a designation,
+               such as the Folger Shakespeare Library (F).</p>
+            <p>MARC, or "MAchine Readable Cataloging" is a set of standards developed by the Library
+               of Congress in the 1960s to facilitate the sharing of library records. The basic
+               pattern for MARC codes is the first letter of the state, followed by the first
+               letter(s) of the repository. Subunits of an institution are then added, if needed: so
+               Harvard, in Massachusetts, may be referred to generally as MH, while the Houghton is
+               MH-H.</p>
+            <p>The English Short Title Catalogue, estc.bl.uk, the successor to the Short Title
+               Catalogue, adopted a modified MARC code for North American holdings. The "library
+               code" field prefaces the MARC code with a continental disambiguator: n = North
+               America, e = Europe. There is no connection on the ESTC website between the historic
+               STC library code and the modern ESTC library code. This list hopes to remedy this
+               problem. </p>
+
+         </projectDesc>
+         <editorialDecl>
+            <p>This text is derived from a scan of the "Locations" list printed in the copy of the
+               STC held at the Folger Shakespeare Library. Abbreviated place names have been
+               expanded, and some information has been duplicated where doing so makes the entry
+               clearer.</p>
+            <p>Entries were cross-checked against the ESTC (estc.bl.uk), and where available, ESTC
+               location codes are supplied. No attempt has been made to locate works listed in private collections.</p>
+         </editorialDecl>
+      </encodingDesc>
+   </teiHeader>
+
+   <text>
+      <body>
+         <list>
+            <item>
+               <idno type="stc">A</idno>
+               <name>Aberdeen University Library</name>
+               <idno type="estc">bABu</idno>
+            </item>
+            <item>
+               <idno type="stc">A2</idno>
+               <name>St Mary's College</name>
+               <placeName>Blairs, Aberdeen</placeName>
+               <note>Deposited at E</note>
+               <idno type="estc">bE</idno>
+            </item>
+            <item>
+               <idno type="stc">A3</idno>
+               <name>Charter Room</name>
+               <placeName>Town House, Aberdeen</placeName>
+               <idno type="estc">bABc</idno>
+            </item>
+            <item>
+               <idno type="stc">AAS</idno>
+               <name>American Antiquarian Society</name>
+               <placeName>Worcester, MA</placeName>
+               <idno type="estc">nMWA</idno>
+            </item>
+            <item>
+               <idno type="stc">AMP</idno>
+               <name>Ampleforth Abbey</name>
+               <placeName>York</placeName>
+               <idno type="estc">bYa</idno>
+            </item>
+            <item>
+               <idno type="stc">AMVU</idno>
+               <name>Vrije Universiteit</name>
+               <placeName>Amsterdam</placeName>
+               <idno type="estc">eAMvu</idno>
+            </item>
+            <item>
+               <idno type="stc">ARP</idno>
+               <name>Public library</name>
+               <placeName>Armagh</placeName>
+               <idno type="estc">bARMp</idno></item>
+            <item>
+               <idno type="stc">AUG</idno>
+               <name>Fort Augustus Abbey</name>
+               <placeName>Inverness-shire</placeName>
+               <idno type="estc">bFAa</idno></item>
+            <item>
+               <idno type="stc">B</idno>
+               <name>Baptist College</name>
+               <placeName>Bristol</placeName>
+               <note>Partly dispersed</note>
+               <idno type="estc">bBRb</idno></item>
+            <item>
+               <idno type="stc">BALT</idno>
+               <name>George Peabody Department, Enoch Pratt Free Library</name>
+               <placeName>Baltimore, MD</placeName>
+               <idno type="estc">nMdBE</idno></item>
+            <item>
+               <idno type="stc">BALT2</idno>
+               <name>Enoch Pratt Free Library</name>
+               <placeName>Baltimore, MD</placeName>
+               <idno type="estc">nMdBE</idno></item>
+            <item>
+               <idno type="stc">BED</idno>
+               <name>Central Library</name>
+               <placeName>Bedford</placeName>
+               <name>(Old Bedford Library Collection)</name>
+               <idno type="estc">bBED</idno></item>
+            <item>
+               <idno type="stc">BELVOIR</idno>
+               <name>Belvoir Castle</name>
+               <placeName>Leicstershire</placeName>
+               <note>(Duke of Rutland)</note>
+               <idno type="estc">bGRAb</idno></item>
+            <item>
+               <idno type="stc">BHP</idno>
+               <name>Avon County Library</name>
+               <placeName>Bath</placeName>
+               <idno type="estc">bBAT</idno>
+            </item>
+            <item>
+               <idno type="stc">BHP(B.A.)</idno>
+               <name>Bath Abbey Collection</name>
+               <note>Now deposited in Wells Cathedral</note>
+               <idno type="estc">bWEc</idno></item>
+            <item>
+               <idno type="stc">BIRM</idno>
+               <name>University of Birmingham</name>
+               <idno type="estc">bBMu</idno></item>
+            <item>
+               <idno type="stc">BIRM(Sh.Inst.)</idno>
+               <name>University of Birmingham, Shakespeare Institute</name>
+               <note>Likely folded into bBMu</note></item>
+            <item>
+               <idno type="stc">BIRM2</idno>
+               <name>Reference Library</name>
+               <placeName>Birmingham (UK)</placeName>
+               <idno type="estc">bBMp</idno></item>
+            <item>
+               <idno type="stc">BIRM2(K.N.)</idno>
+               <name>Reference Library</name>
+               <placeName>Birmingham (UK)</placeName>
+               <note>King's Norton, Hall Collection</note>
+               <idno type="estc">[not found]</idno>
+            </item>
+            <item>
+               <idno type="stc">Blayney, Peter W.M.</idno>
+               <placeName>Silver Spring, MD</placeName>
+               <note>Private collection</note>
+            </item>
+            <item>
+               <idno type="stc">Blickling Hall</idno>
+               <placeName>Aylsham, Norfolk (UK)</placeName>
+               <note>Private collection</note>
+            </item>
+            <item>
+               <idno type="stc">BO</idno>
+               <name>Boston Public Library</name>
+               <placeName>Boston, MA</placeName>
+               <idno type="estc">nMB</idno></item>
+            <item>
+               <idno type="stc">BO2</idno>
+               <name>Boston Athenaeum</name>
+               <idno type="estc">nMBAt</idno></item>
+            <item>
+               <idno type="stc">BO3</idno>
+               <name>Congregational Library</name>
+               <placeName>Boston, MA</placeName>
+               <idno type="estc">nMBC</idno>
+            </item>
+            <item>
+               <idno type="stc">BO4</idno>
+               <note>not used</note>
+            </item>
+            <item>
+               <idno type="stc">BO5</idno>
+               <name>Massachusetts Historical Society</name>
+               <placeName>Boston, MA</placeName>
+               <idno type="estc">nMHi</idno></item>
+            <item>
+               <idno type="stc">BO6</idno>
+               <name>Zion Research Library</name>
+               <name>Boston, MA</name>
+               <idno type="estc">nMBrZ</idno></item>
+            <item>
+               <idno type="stc">BODMER</idno>
+               <name>Bibliotheca Bodmeriana</name>
+               <placeName>Cologny-Gen&#xe8;ve, Switzerland</placeName>
+               <idno type="estc">eGEVb</idno></item>
+            <item>
+               <idno type="stc">BOWDOIN</idno>
+               <name>Bowdoin College</name>
+               <placeName>Brunswick, ME</placeName>
+               <idno type="estc">nMeB</idno></item>
+            <item>
+               <idno type="stc">BR</idno>
+               <name>Brown University</name><placeName>Providence, RI</placeName>
+               <idno type="estc">nRPB</idno></item>
+            <item>
+               <idno type="stc">BRISTOL</idno>
+               <name>Central Library</name>
+               <placeName>Bristol</placeName>
+               <idno type="estc">bBRp</idno></item>
+            <item>
+               <idno type="stc">BRISTOL2</idno>
+               <name>University of Bristol</name>
+               <idno type="estc">bBRu</idno></item>
+            <item>
+               <idno type="stc">Britwell</idno>
+               <note>The Britwell sale at <name>Sotheby's</name> 30 March 1971</note>
+            </item>
+            <item>
+               <idno type="stc">Broxbourne</idno>
+               <name>Private Collection of Albert Ehrman</name>
+               <note>Private collection</note></item>
+            <item>
+               <idno type="stc">Broxbourne(E)</idno>
+               <note>some items now at the British Library; the rest dispersed in sales at Sotheby's
+                  14-15 November 1977 and 8 May 1978.</note>
+               <idno type="estc">bL</idno></item>
+            <item>
+               <idno type="stc">Broxbourne(O)</idno>
+               <note>now at the Bodleian Library, Oxford</note>
+               <idno type="estc">bO</idno></item>
+            <item>
+               <idno type="stc">BRU</idno>
+               <name>English Convent</name>
+               <placeName>Bruges</placeName>
+               <idno type="estc">[No code]</idno></item>
+            <item>
+               <idno type="stc">Bryn Mawr College</idno>
+               <placeName>Bryn Mawr, PA</placeName>
+               <idno type="estc">nPBm</idno></item>
+            <item>
+               <idno type="stc">BTL</idno>
+               <name>Linen Hall</name>
+               <placeName>Belfast</placeName>
+               <idno type="estc">bBFl</idno></item>
+            <item>
+               <idno type="stc">BTU</idno>
+               <name>Queen's University</name>
+               <placeName>Belfast</placeName>
+               <idno type="estc">bBFq</idno>
+            </item>
+            <item>
+               <idno type="stc">BURY</idno>
+               <name>Bury St. Edmunds Cathedral</name>
+               <note>Includes deposit of Assignton Parish Library</note>
+               <idno type="estc">bBUYc</idno></item>
+            <item>
+               <idno type="stc">BUTE</idno>
+               <name>Marquess of Bute</name>
+               <note>Private collection</note></item>
+            <item>
+               <idno type="stc">Buxton, John</idno>
+               <placeName>New College, Oxford</placeName>
+               <note>Private collection</note></item>
+            <item>
+               <idno type="stc">C</idno>
+               <name>University Library</name>
+               <placeName>Cambridge</placeName>
+               <idno type="estc">bC</idno></item>
+            <item>
+               <idno type="stc">C(Bury deposit)</idno>
+               <name>Bury St. Edmunds Grammar School</name>
+               <note>deposited at University Library</note>
+               <placeName>Cambridge</placeName>
+               <idno type="estc">bC</idno></item>
+            <item>
+               <idno type="stc">C2</idno>
+               <name>Trinity College</name>
+               <placeName>Cambridge</placeName>
+               <idno type="estc">bCt</idno></item>
+            <item>
+               <idno type="stc">C3</idno>
+               <name>Emmanuel College</name>
+               <placeName>Cambridge</placeName>
+               <idno type="estc">bCe</idno></item>
+            <item>
+               <idno type="stc">C4</idno>
+               <name>King's College</name>
+               <placeName>Cambridge</placeName>
+               <idno type="estc">bCk</idno></item>
+            <item>
+               <idno type="stc">C5</idno>
+               <name>St. John's College</name>
+               <placeName>Cambridge</placeName>
+               <idno type="estc">bCsj</idno></item>
+            <item>
+               <idno type="stc">C6</idno>
+               <name>Pepysian Library, Magdalene College</name>
+               <placeName>Cambridge</placeName>
+               <idno type="estc">bCm</idno></item>
+            <item>
+               <idno type="stc">C7</idno>
+               <name>Corpus Christi College</name>
+               <placeName>Cambridge</placeName>
+               <idno type="estc">bCcc</idno></item>
+            <item>
+               <idno type="stc">C8</idno>
+               <name>Jesus College</name>
+               <placeName>Cambridge</placeName>
+               <idno type="estc">bCj</idno></item>
+            <item>
+               <idno type="stc">C9</idno>
+               <name>Gonville and Caius</name>
+               <placeName>Cambridge</placeName>
+               <idno type="estc">bCgc</idno></item>
+            <item>
+               <idno type="stc">C10</idno>
+               <name>Magdalene College</name>
+               <placeName>Cambridge</placeName>
+               <idno type="estc">bCm</idno></item>
+            <item>
+               <idno type="stc">C11</idno>
+               <name>St. Catharine's College</name>
+               <placeName>Cambridge</placeName>
+               <idno type="estc">bCsc</idno></item>
+            <item>
+               <idno type="stc">C12</idno>
+               <name>Christ's College</name>
+               <placeName>Cambridge</placeName>
+               <idno type="estc">BCch</idno></item>
+            <item>
+               <idno type="stc">C13</idno>
+               <name>Clare College</name>
+               <placeName>Cambridge</placeName>
+               <idno type="estc">bCc</idno></item>
+            <item>
+               <idno type="stc">C14</idno>
+               <name>Fitzwilliam Museum</name>
+               <placeName>Cambridge</placeName>
+               <idno type="estc">bCf</idno></item>
+            <item>
+               <idno type="stc">C15</idno>
+               <name>Pembroke College</name>
+               <placeName>Cambridge</placeName>
+               <idno type="estc">bCp</idno></item>
+            <item>
+               <idno type="stc">C16</idno>
+               <name>Queen's College</name>
+               <placeName>Cambridge</placeName>
+               <idno type="estc">bCq</idno></item>
+            <item>
+               <idno type="stc">C17</idno>
+               <name>Sidney Sussex College</name>
+               <placeName>Cambridge</placeName>
+               <idno type="estc">bCss</idno></item>
+            <item>
+               <idno type="stc">C18</idno>
+               <name>Selwyn College</name>
+               <placeName>Cambridge</placeName>
+               <idno type="estc">bCs</idno></item>
+            <item>
+               <idno type="stc">C19</idno>
+               <name>Peterhouse</name>
+               <placeName>Cambridge</placeName>
+               <idno type="estc">bCpe</idno></item>
+            <item>
+               <idno type="stc">C20</idno>
+               <name>Trinity Hall</name>
+               <placeName>Cambridge</placeName>
+               <idno type="estc">bCth</idno></item>
+            <item>
+               <idno type="stc">C21</idno>
+               <name>Downing College</name>
+               <placeName>Cambridge</placeName>
+               <idno type="estc">bCd</idno></item>
+            <item>
+               <idno type="stc">C22</idno>
+               <name>Newnham College</name>
+               <placeName>Cambridge</placeName>
+               <idno type="estc">bCn</idno></item>
+            <item>
+               <idno type="stc">C23</idno>
+               <name>Girton College</name>
+               <placeName>Cambridge</placeName>
+               <idno type="estc">bCg</idno></item>
+            <item>
+               <idno type="stc">C24</idno>
+               <name>Cheshunt College</name>
+               <placeName>Cambridge</placeName>
+               <idno type="estc">BCche</idno></item>
+            <item>
+               <idno type="stc">C25</idno>
+               <name>Westminster College</name>
+               <placeName>Cambridge</placeName>
+               <idno type="estc">bCwc</idno></item>
+            <item>
+               <idno type="stc">C26</idno>
+               <name>University Archives, University Library</name>
+               <placeName>Cambridge</placeName>
+               <idno type="estc">bCa</idno></item>
+            <item>
+               <idno type="stc">CAL</idno>
+               <name>University of California, Los Angeles</name>
+               <placeName>Los Angeles, CA</placeName>
+               <idno type="estc">nCLU</idno></item>
+            <item>
+               <idno type="stc">CAL2</idno>
+               <name>University of California, Berkeley</name>
+               <placeName>Berkeley, CA</placeName>
+               <idno type="estc">nCU</idno></item>
+            <item>
+               <idno type="stc">CAL3</idno>
+               <name>University of Southern California</name>
+               <placeName>Los Angeles, CA</placeName>
+               <idno type="estc">nCLSU</idno></item>
+            <item>
+               <idno type="stc">CAL4</idno>
+               <name>Claremont Colleges</name>
+               <placeName>Claremont, CA</placeName>
+               <idno type="estc">nCCC</idno></item>
+            <item>
+               <idno type="stc">CAL5</idno>
+               <name>County Law Library</name>
+               <placeName>Los Angeles, CA</placeName>
+               <idno type="estc">nCLL</idno></item>
+            <item>
+               <idno type="stc">CAL6</idno>
+               <name>University of California</name>
+               <placeName>Davis, CA</placeName>
+               <idno type="estc">nCU-A</idno></item>
+            <item>
+               <idno type="stc">CAL7</idno>
+               <name>University of California</name>
+               <placeName>Riverside, CA</placeName>
+               <idno type="estc">nCU-Riv</idno></item>
+            <item>
+               <idno type="stc">CAL8</idno>
+               <name>University of California</name>
+               <placeName>Santa Barbara, CA</placeName>
+               <idno type="estc">nCU-SB</idno></item>
+            <item>
+               <idno type="stc">CANT</idno>
+               <name>Canterbury Cathedral</name>
+               <idno type="stc">CANT2</idno>
+               <name>Canterbury Corporation Archives</name>
+               <note>housed at Canterbury Cathedral</note>
+               <idno type="estc">bCYca</idno></item>
+            <item>
+               <idno type="stc">CAR</idno>
+               <name>Central Library, Cardiff</name>
+               <placeName>Cardiff</placeName>
+               <idno type="estc">bCFp</idno>
+            </item>
+            <item>
+               <idno type="stc">CARLISLE</idno>
+               <name>Carlisle Cathedral</name>
+               <idno type="estc">bCLc</idno></item>
+            <item>
+               <idno type="stc">Cartmel</idno>
+               <name>Cartmel Priory Church</name>
+               <placeName>Lancashire</placeName>
+               <note>now at Lancaster University Library</note>
+               <idno type="estc">bLANu</idno></item>
+            <item>
+               <idno type="stc">CASHEL</idno>
+               <name>Cashel Cathedral</name>
+               <placeName>County Tipperary</placeName>
+               <idno type="estc">bCAS</idno></item>
+            <item>
+               <idno type="stc">CB</idno>
+               <name>John Carter Brown Library</name>
+               <placeName>Providence, RI</placeName>
+               <idno type="estc">nRPJCB</idno></item>
+            <item>
+               <idno type="stc">CH</idno>
+               <name>Chapin Library, Williams College</name>
+               <placeName>Williamstown, MA</placeName>
+               <idno type="estc">nMWiW-C</idno>
+            </item>
+            <item><idno type="stc">CHATS</idno>
+               <name>Chatsworth Backwell</name>
+               <placeName>Derbyshire</placeName>
+               <note>(Duke of Devonshire): ESTC does not differentiate the house from items in
+                  private collection</note>
+               <idno type="estc">bPC</idno></item>
+            <item>
+               <idno type="stc">CHEL</idno>
+               <name>Sepulchrine Convent</name>
+               <placeName>New Hall, Clemsford</placeName>
+               <idno type="estc">bCHLs</idno></item>
+            <item>
+               <idno type="stc">CHEL2</idno>
+               <name>Chelmsford Cathedral</name>
+               <idno type="estc">bCHL</idno></item>
+            <item>
+               <idno type="stc">CHES</idno>
+               <name>Chester Cathedral</name>
+               <idno type="estc">bCHSc</idno></item>
+            <item>
+               <idno type="stc">CHI</idno>
+               <name>University of Chicago</name>
+               <placeName>Chicago, IL</placeName>
+               <idno type="estc">nICU</idno></item>
+            <item>
+               <idno type="stc">CHI2</idno>
+               <name>John Crerar Library</name>
+               <placeName>Chicago, IL</placeName>
+               <idno type="estc">nICJ</idno></item>
+            <item>
+               <idno type="stc">CHICH</idno>
+               <name>Carmelite Convent</name>
+               <placeName>Chichester</placeName>
+               <idno type="estc">bCHId</idno></item>
+            <item>
+               <idno type="stc">CHICH2</idno>
+               <name>Chichester Cathedral</name>
+               <idno type="estc">bCHIc</idno></item>
+            <item>
+               <idno type="stc">COL</idno>
+               <name>Public Library, Colchester</name>
+               <placeName>Colchester</placeName>
+               <idno type="estc">bCOC</idno></item>
+            <item>
+               <idno type="stc">COLG</idno>
+               <name>American Baptist Historical Society</name>
+               <placeName>Rochester, NY</placeName>
+               <note>(Samuel Colgate Collection)</note>
+               <idno type="estc">nNRAB</idno></item>
+            <item>
+               <idno type="stc">COLG2</idno>
+               <name>Rochester Center for Theological Studies</name>
+               <placeName>Rochester, NY</placeName>
+               <idno type="estc">nNRCR</idno></item>
+            <item>
+               <idno type="stc">COLWICH</idno>
+               <name>St. Mary's Abby, Colwich</name>
+               <placeName>Staffordshire</placeName>
+               <idno type="estc">bCOL</idno></item>
+            <item>
+               <idno type="stc">CONN</idno>
+               <name>Connecticut State Library</name>
+               <placeName>Hartford, CT</placeName>
+               <idno type="estc">nCt</idno></item>
+            <item>
+               <idno type="stc">Copenhagen RL</idno>
+               <name>Det Kongelige Bibliotek</name>
+               <placeName>Copenhagen</placeName>
+               <idno type="estc">eCPks</idno></item>
+            <item>
+               <idno type="stc">COR</idno>
+               <name>Cornell University</name>
+               <placeName>Ithaca, NY</placeName>
+               <idno type="estc">nNIC</idno></item>
+            <item>
+               <idno type="stc">CREDITON</idno>
+               <name>Crediton Parish Library</name>
+               <note>Deposited at the University of Exeter</note>
+               <idno type="estc">bEXu</idno></item>
+            <item>
+               <idno type="stc">Crocker, C. Templeton, Estate of</idno>
+               <placeName>San Francisco, CA</placeName>
+               <note>Private collection</note></item>
+            <item>
+               <idno type="stc">CU</idno>
+               <name>Columbia University</name>
+               <placeName>New York City, NY</placeName>
+               <idno type="estc">nNNC</idno></item>
+            <item>
+               <idno type="stc">D</idno>
+               <name>Trinity College</name>
+               <placeName>Dublin</placeName>
+               <idno type="estc">bDt</idno></item>
+            <item>
+               <idno type="stc">D2</idno>
+               <name>Marsh's Library</name>
+               <placeName>Dublin</placeName>
+               <idno type="estc">bDm</idno></item>
+            <item>
+               <idno type="stc">D3</idno>
+               <note>= CASHEL</note>
+               <idno type="estc">bCAS</idno>
+            </item>
+            <item>
+               <idno type="stc">D4</idno>
+               <name>Public Record Office of Ireland</name>
+               <placeName>Dublin</placeName>
+               <idno type="estc">bDpro</idno></item>
+            <item>
+               <idno type="stc">D5</idno>
+               <name>Honourable Society of King's Inn</name>
+               <placeName>Dublin</placeName>
+               <idno type="estc">bDk</idno></item>
+            <item>
+               <idno type="stc">D6</idno>
+               <name>National Library of Ireland</name>
+               <placeName>Dublin</placeName>
+               <idno type="estc">bD</idno></item>
+            <item>
+               <idno type="stc">D7</idno>
+               <name>Representative Church Body</name>
+               <placeName>Dublin</placeName>
+               <note>(Watson Collection)</note>
+               <idno type="estc">bDrc</idno></item>
+            <item>
+               <idno type="stc">D8</idno>
+               <name>Royal Irish Academy</name>
+               <placeName>Dublin</placeName>
+               <idno type="estc">bDi</idno></item>
+            <item>
+               <idno type="stc">D9</idno>
+               <name>Public Library</name>
+               <placeName>Dublin</placeName>
+               <idno type="estc">bDpg</idno></item>
+            <item>
+               <idno type="stc">DAI</idno>
+               <name>Douai Abbey</name>
+               <placeName>Wollhampton, Berkshire</placeName>
+               <idno type="estc">bWOO</idno></item>
+            <item>
+               <idno type="stc">DALK</idno>
+               <name>Duke of Buccleuch</name>
+               <note>Private collection</note></item>
+            <item>
+               <idno type="stc">DAR</idno>
+               <name>Dartmouth College</name>
+               <placeName>Hanover, NH</placeName>
+               <idno type="estc">nNhD</idno></item>
+            <item>
+               <idno type="stc">DE</idno>
+               <name>Downside Abbey</name>
+               <placeName>Bath</placeName>
+               <idno type="estc">bBATd</idno></item>
+            <item>
+               <idno type="stc">DEU</idno>
+               <name>University of Dundee</name>
+               <idno type="estc">bDUNu</idno></item>
+            <item>
+               <idno type="stc">DN</idno>
+               <name>St. Clare's Abbey</name>
+               <placeName>Darlington</placeName>
+               <idno type="estc">bDALc</idno></item>
+            <item>
+               <idno type="stc">DNPK</idno>
+               <name>Deene Park</name>
+               <placeName>Corby, Northhamptonshire</placeName>
+               <note>(Edmund Brundenell), Collection partly dispersed in sales at Bonham's, London,
+                  26 Nov. 1975 and 23 Feb. 1977</note>
+               <idno type="estc">bCORBd</idno></item>
+            <item>
+               <idno type="stc">Duke University</idno>
+               <placeName>Durham, NC</placeName>
+               <idno type="estc">nNcD</idno></item>
+            <item>
+               <idno type="stc">DUL</idno>
+               <name>Dulwich College</name>
+               <placeName>London</placeName>
+               <idno type="estc">bLd</idno></item>
+            <item>
+               <idno type="stc">DUR</idno>
+               <name>Durham Cathedral</name>
+               <idno type="estc">bDUc</idno></item>
+            <item>
+               <idno type="stc">DUR (Bamb.)</idno>
+               <name>Bamburgh Castle</name>
+               <note>deposit at DUR5</note>
+               <idno type="estc">bDUu</idno></item>
+            <item>
+               <idno type="stc">DUR2</idno>
+               <name>Squance Library</name>
+               <note>Dispersed</note>
+               <idno type="estc">bDUs</idno></item>
+            <item>
+               <idno type="stc">DUR3</idno>
+               <name>Cosin Library</name>
+               <note>deposit at DUR5</note>
+               <idno type="estc">bDUu</idno></item>
+            <item>
+               <idno type="stc">DUR4</idno>
+               <name>Cock Library</name>
+               <note>Dispersed</note>
+            </item>
+            <item>
+               <idno type="stc">DUR5</idno>
+               <name>University of Durham</name>
+               <idno type="estc">bDUu</idno></item>
+            <item>
+               <idno type="stc">E</idno>
+               <name>National Library of Scotland</name>
+               <placeName>Edinburgh</placeName>
+               <idno type="estc">bE</idno></item>
+            <item>
+               <idno type="stc">E2</idno>
+               <name>Edinburgh University</name>
+               <idno type="estc">bEu</idno></item>
+            <item>
+               <idno type="stc">E3</idno>
+               <name>Signet Library</name>
+               <placeName>Edinburgh</placeName>
+               <idno type="estc">bEs</idno></item>
+            <item>
+               <idno type="stc">E4</idno>
+               <name>New College, Edinburgh University</name>
+               <idno type="estc">bEn</idno></item>
+            <item>
+               <idno type="stc">E5</idno>
+               <name>Royal College of Physicians of Edinburgh</name>
+               <idno type="estc">bEcp</idno>
+            </item>
+            <item>
+               <idno type="stc">E6</idno>
+               <name>Scottish Record Office, General Register House</name>
+               <placeName>Edinburgh</placeName>
+               <idno type="estc">bEr</idno></item>
+            <item>
+               <idno type="stc">E7</idno>
+               <name>Society of Antiquaries of Scotland</name>
+               <placeName>Edinburgh</placeName>
+               <idno type="estc">bEsa</idno></item>
+            <item>
+               <idno type="stc">E8</idno>
+               <name>Public Library, Edinburgh</name>
+               <placeName>Edinburgh</placeName>
+               <idno type="estc">bEp</idno></item>
+            <item>
+               <idno type="stc">E9</idno>
+               <name>United Free Church Library</name>
+               <note>Now = E4</note>
+               <idno type="estc">bEn</idno></item>
+            <item>
+               <idno type="stc">E10</idno>
+               <name>General Assembly of the Church of Scotland Library</name>
+               <note>deposited at E4</note>
+               <idno type="estc">bEn</idno></item>
+            <item>
+               <idno type="stc">E11</idno>
+               <name>Speculative Society, Edinburgh University</name>
+               <idno type="estc">bEss</idno></item>
+            <item>
+               <idno type="stc">E12</idno>
+               <name>Edward Clark Library, Napier College of Commerce &amp; Technology</name>
+               <placeName>Edinburgh</placeName>
+               <idno type="estc">bEec</idno></item>
+            <item>
+               <idno type="stc">E13</idno>
+               <name>Royal Observatory</name>
+               <placeName>Edinburgh</placeName>
+               <idno type="estc">bEo</idno></item>
+            <item>
+               <idno type="stc">Edwards, Francis, LTC. Bookseller</idno>
+               <placeName>London</placeName>
+               <note>Private collection</note></item>
+            <item>
+               <idno type="stc">ELY</idno>
+               <note>= C</note>
+               <idno type="estc">bC</idno>
+            </item>
+            <item>
+               <idno type="stc">ESRO</idno>
+               <name>East Sussex Record Office</name>
+               <placeName>Lewes</placeName>
+               <idno type="estc">bLSr</idno></item>
+            <item>
+               <idno type="stc">ETON</idno>
+               <name>Eton College</name>
+               <placeName>Windsor, Berkshire</placeName>
+               <idno type="estc">bET</idno>
+            </item>
+            <item>
+               <idno type="stc">Evelyn</idno>
+               <name>sales at Christie's in 1977-78 of John Evelyn's library</name>
+               <note>formerly deposited at O3</note>
+            </item>
+            <item>
+               <idno type="stc">EX</idno>
+               <name>Exeter Cathedral</name>
+               <idno type="estc">bEXc</idno></item>
+            <item>
+               <idno type="stc">F</idno>
+               <name>Folger Shakespeare Library</name>
+               <placeName>Washington, DC</placeName>
+               <idno type="estc">nDFo</idno></item>
+            <item>
+               <idno type="stc">FBL</idno>
+               <name>Francis Bacon Library</name>
+               <placeName>Claremont, CA</placeName>
+               <note>Some items now at the Huntington</note>
+            </item>
+            <item>
+               <idno type="stc">Finedon</idno>
+               <name>St. Mary's Church</name>
+               <placeName>Finedon, Northamptonshire</placeName>
+               <idno type="estc">bFIN</idno></item>
+            <item>
+               <idno type="stc">Finney, Theodore M.</idno>
+               <placeName>Pittsburgh, PA</placeName>
+               <note>Private collection</note>
+            </item>
+            <item>
+               <idno type="stc">Fleming, John F. Inc., Bookseller</idno>
+               <placeName>New York City, NY</placeName>
+               <note>Private collection</note></item>
+            <item>
+               <idno type="stc">FORDHAM</idno>
+               <name>Fordham University</name>
+               <placeName>The Bronx, NY</placeName>
+               <idno type="estc">nNNF</idno></item>
+            <item>
+               <idno type="stc">Freeman, Arthur.</idno>
+               <note>Items cited now = F</note>
+               <idno type="estc">nDFo</idno></item>
+            <item>
+               <idno type="stc">G</idno>
+               <note>= G2</note>
+               <idno type="estc">bGu</idno>
+            </item>
+            <item>
+               <idno type="stc">G2</idno>
+               <name>University of Glasgow</name>
+               <idno type="estc">bGu</idno></item>
+            <item>
+               <idno type="stc">G3</idno>
+               <note>= G2</note>
+               <idno type="estc">bGu</idno></item>
+            <item>
+               <idno type="stc">G4</idno>
+               <name>Public Library, Glasgow</name>
+               <idno type="estc">bGp</idno></item>
+            <item>
+               <idno type="stc">GK</idno>
+               <name>Sir Geoffrey Keynes, Collection of.</name>
+               <note>Now C</note>
+               <idno type="estc">bC</idno></item>
+            <item>
+               <idno type="stc">GLOUC</idno>
+               <name>Gloucester Cathedral</name>
+               <idno type="estc">bGLOc</idno></item>
+            <item>
+               <idno type="stc">Gordan, Mrs. John</idno>
+               <placeName>New York City, NY</placeName>
+               <note>Private collection</note></item>
+            <item>
+               <idno type="stc">GOT</idno>
+               <name>Göttingen University</name>
+               <idno type="estc">eGOT</idno></item>
+            <item>
+               <idno type="stc">Goyder, George</idno>
+               <placeName>Long Melford, Suffolk</placeName>
+               <note>Collection partly dispersed in a sale at Sotheby's 2 April 1979</note>
+            </item>
+            <item>
+               <idno type="stc">Graham, Howard Jay</idno>
+               <placeName>Walla Walla, WA</placeName>
+               <note>Private collection</note></item>
+            <item>
+               <idno type="stc">Gration-Maxfield, Brent Collection of</idno>
+               <note>Dispersed</note></item>
+            <item>
+               <idno type="stc">GRO</idno>
+               <name>Buffalo and Erie County Public Library</name>
+               <placeName>Buffalo, NY</placeName>
+               <idno type="estc">nNBuG</idno>
+            </item>
+            <item>
+               <idno type="stc">Grolier Club</idno>
+               <placeName>New York City, NY</placeName>
+               <idno type="estc">nNNGr</idno>
+            </item>
+            <item>
+               <idno type="stc">HAGUE</idno>
+               <name>Koninklijke Bibliotheek</name>
+               <placeName>The Hague</placeName>
+               <idno type="estc">eHAG</idno>
+            </item>
+            <item>
+               <idno type="stc">Hammond, W. F., Bookseller</idno>
+               <placeName>Lymington, Hampshire</placeName>
+               <note>Private collection</note>
+            </item>
+            <item>
+               <idno type="stc">HART</idno>
+               <name>Pitts Theological Library, Emory University</name>
+               <placeName>Atlanta, GA</placeName>
+               <idno type="estc">nGEU-T</idno></item>
+            <item>
+               <idno type="stc">HART2</idno>
+               <name>Trinity College</name>
+               <placeName>Hartford, CT</placeName>
+               <idno type="estc">nCtHT-W</idno></item>
+            <item>
+               <idno type="stc">HAT</idno>
+               <name>Hatfield House</name>
+               <placeName>Hatfield, Hertfordshire</placeName>
+               <note>(Marquess of Salisbury)</note>
+               <idno type="estc">bHFDh</idno>
+            </item>
+            <item>
+               <idno type="stc">HD</idno>
+               <name>Harvard University</name>
+               <placeName>Cambridge, MA</placeName>
+               <idno type="estc">nMH-H</idno></item>
+            <item>
+               <idno type="stc">Hebrew Union College</idno>
+               <placeName>Cincinnati, OH</placeName>
+               <idno type="estc">nOCH</idno></item>
+            <item>
+               <idno type="stc">HER</idno>
+               <name>Hereford Cathedral</name>
+               <idno type="estc">bHEc</idno>
+            </item>
+            <item>
+               <idno type="stc">HETH</idno>
+               <name>John R. Hetherington Collection</name>
+               <note>Bibles, Metrical Psalms, Books of Common Prayer deposited at BIRM; other items
+                  are now partly dispersed</note>
+            </item>
+            <item>
+               <idno type="stc">Hickmott, Allerton C., Collection of.</idno>
+               <note>Now = DAR</note>
+               <idno type="estc">nNhD</idno></item>
+            <item>
+               <idno type="stc">HN</idno>
+               <name>Huntington Library</name>
+               <placeName>San Marino, CA</placeName>
+               <idno type="estc">nCSmH</idno></item>
+            <item>
+               <idno type="stc">Hofer, Philip, Collection of.</idno>
+               <note>Now = HD</note>
+               <idno type="estc">nMH-H</idno>
+            </item>
+            <item>
+               <idno type="stc">Hofmann &amp; Freeman, LTd., Bookseller</idno>
+               <placeName>Sevenoaks, Kent</placeName>
+               <note>Private collection</note></item>
+            <item>
+               <idno type="stc">HOLK</idno>
+               <name>Holkham Hall</name>
+               <placeName>Wells, Norfolk</placeName>
+               <idno type="estc">bWEL</idno></item>
+            <item>
+               <idno type="stc">Horblit, Harrison D. Collection of</idno>
+               <note>Partly dispersed in sales at Sotheby's 10-11 June and 11 Nov. 1974; the
+                  remainder sold to Kraus</note>
+            </item>
+            <item>
+               <idno type="stc">Houghton, Arthur A., Jr. Collection of</idno>
+               <note>Dispersed in sales at Christie's 13-14 June and 5 Dec. (Miniatures) 1979 and
+                  11-12 June 1980</note>
+            </item>
+            <item>
+               <idno type="stc">HP</idno>
+               <name>Heythrop College</name>
+               <placeName>Cavendish Square, London</placeName>
+               <idno type="estc">bLhe</idno></item>
+            <item>
+               <idno type="stc">HUNT</idno>
+               <name>Hunt Botanical Library, Carnegie-Mellon University</name>
+               <placeName>Pittsburgh, PA</placeName>
+               <note>Now known as Hunt Institute for Botanical Documentation (Carnegie-Mellon) -
+                  Pittsburgh, Pennsylvania</note>
+               <idno type="estc">nPPiHB</idno></item>
+            <item>
+               <idno type="stc">Ickworth</idno>
+               <placeName>Bury St. Edmunds, Suffolk</placeName>
+               <idno type="estc">bNT</idno></item>
+            <item>
+               <idno type="stc">ILL</idno>
+               <name>University of Illinois</name>
+               <placeName>Urbana, IL</placeName>
+               <idno type="estc">nIU</idno></item>
+            <item>
+               <idno type="stc">IND</idno>
+               <name>Indiana University</name>
+               <placeName>Bloomington, IN</placeName>
+               <idno type="estc">nInU-Li</idno></item>
+            <item>
+               <idno type="stc">INN</idno>
+               <name>Innerpeffray Library</name>
+               <placeName>Crieff, Perthshire</placeName>
+               <idno type="estc">bINE</idno></item>
+            <item>
+               <idno type="stc">J</idno>
+               <name>Collection of William Jaggard</name>
+               <note>Dispersed; some unique items reported in the 1926 STC cannot be traced nor
+                  their previous existence verified</note>
+            </item>
+            <item>
+               <idno type="stc">Jacobson, Alf E.</idno>
+               <placeName>New London, NH</placeName>
+               <note>Private collection</note></item>
+            <item>
+               <idno type="stc">JH</idno>
+               <name>Johns Hopkins University</name>
+               <placeName>Baltimore, MD</placeName>
+               <idno type="estc">nMdBJ</idno></item>
+            <item>
+               <idno type="stc">JH2</idno>
+               <name>Tudor and Stuart Club, Johns Hopkins University</name>
+               <idno type="estc">nMdBJ</idno></item>
+            <item>
+               <idno type="stc">Juel-Jensen, Dr. Bent</idno>
+               <placeName>Headington, Oxford</placeName>
+               <note>Private collection</note></item>
+            <item>
+               <idno type="stc">K</idno>
+               <name>Kylemore Abbey</name>
+               <placeName>Co. Connemara</placeName>
+               <idno type="estc">bKYL</idno></item>
+            <item>
+               <idno type="stc">KAN</idno>
+               <name>University of Kansas</name>
+               <placeName>Lawrence, KS</placeName>
+               <idno type="estc">nKU-S</idno></item>
+            <item>
+               <idno type="stc">KAO</idno>
+               <name>Kent Archives Office</name>
+               <placeName>Maidstone</placeName>
+               <idno type="estc">bMAEr</idno></item>
+            <item>
+               <idno type="stc">Kenney, C. E. Collection of</idno>
+               <note>Dispersed in sales at Sotheby's from May 1965 to March 1968; some of the rarer
+                  items cited by lot number</note>
+            </item>
+            <item>
+               <idno type="stc">Kent, University of</idno>
+               <placeName>Canterbury, Kent</placeName>
+               <idno type="estc">bCYu</idno></item>
+            <item>
+               <idno type="stc">Kenyon, Lord, Gredington</idno>
+               <placeName>Whitchurch, Salop</placeName>
+               <note>Collection partly dispersed in a sale at Christie's 12 Nov. 1975</note>
+            </item>
+            <item>
+               <idno type="stc">Kenyon College</idno>
+               <placeName>Gambier, OH</placeName>
+               <idno type="estc">nOGK</idno></item>
+            <item>
+               <idno type="stc">KILLINEY</idno>
+               <name>Franciscan House of Studies</name>
+               <placeName>Killiney, near Kingstown, Co. Dublin</placeName>
+               <idno type="estc">bKLN</idno></item>
+            <item>
+               <idno type="stc">Kraus, H. P., Bookseller</idno>
+               <placeName>New York City, NY</placeName>
+               <note>Private collection</note></item>
+            <item>
+               <idno type="stc">L</idno>
+               <name>The British Library, Reference Division</name>
+               <placeName>London</placeName>
+               <note>Includes Depts. of Printed books (with Maps) and of MSS., formerly part of the
+                  British Museum; also includes the Ashley Library of T. J. Wise. Still part of the
+                  British Museum are items in other Depts., e.g. Prints and Drawings</note>
+               <idno type="estc">bL</idno></item>
+            <item>
+               <idno type="stc">L(Davis)</idno>
+               <name>Collection of Henry Davis at the British Library</name>
+               <idno type="estc">bL</idno>
+            </item>
+            <item>
+               <idno type="stc">L(destroyed)</idno> books in the <name>British Library</name>
+               <note>destroyed by bombs during World War II</note>
+               <idno type="estc">[not used]</idno></item>
+            <item>
+               <idno type="stc">L2</idno>
+               <name>Lambeth Palace</name><placeName>London</placeName>
+               <idno type="estc">bLlp</idno></item>
+            <item>
+               <idno type="stc">L3</idno>
+               <name>Dr. Williams's Library</name>
+               <placeName>London</placeName>
+               <idno type="estc">bLdw</idno></item>
+            <item>
+               <idno type="stc">L4</idno>
+               <name>Sion College</name>
+               <placeName>London</placeName>
+               <note>Partly dispersed in a sale at Sotheby's 13 June 1977</note>
+               <idno type="estc">bLs</idno></item>
+            <item>
+               <idno type="stc">L5</idno>
+               <name>Society of Antiquaries</name>
+               <placeName>London</placeName>
+               <idno type="estc">bLsa</idno></item>
+            <item>
+               <idno type="stc">L6</idno>
+               <name>Dyce Collection, Victoria and Albert Museum</name>
+               <placeName>London</placeName>
+               <idno type="estc">bLv</idno></item>
+            <item>
+               <idno type="stc">L7</idno>
+               <name>Royal College of Music</name>
+               <placeName>London</placeName>
+               <idno type="estc">bLrcm</idno></item>
+            <item>
+               <idno type="stc">L8</idno>
+               <name>Guildhall Library</name>
+               <placeName>London</placeName>
+               <idno type="estc">bLg</idno></item>
+            <item>
+               <idno type="stc">L8(Records Office)</idno> <name>Records Office of the Corportion of
+                  London</name>
+               <note>Also housed in the Guildhall</note>
+               <placeName>London</placeName>
+               <idno type="estc">bLg</idno></item>
+            <item>
+               <idno type="stc">L9</idno>
+               <name>Society of Jesus Library</name>
+               <placeName>Mount Street, London</placeName>
+               <idno type="estc">bLsj</idno></item>
+            <item>
+               <idno type="stc">L10</idno>
+               <note>= L</note>
+               <idno type="estc">bL</idno></item>
+            <item>
+               <idno type="stc">L11</idno>
+               <name>Public Record Office</name>
+               <placeName>London</placeName>
+               <idno type="estc">bLpro</idno></item>
+            <item>
+               <idno type="stc">L12</idno>
+               <name>The Royal Society</name>
+               <placeName>London</placeName>
+               <idno type="estc">bLrs</idno></item>
+            <item>
+               <idno type="stc">L13</idno>
+               <name>Westminster Abbey</name>
+               <placeName>London</placeName>
+               <idno type="estc">bLwa</idno></item>
+            <item>
+               <idno type="stc">L14</idno>
+               <name>British and Foreign Bible Society</name>
+               <placeName>London</placeName>
+               <note>deposited at C</note>
+               <idno type="estc">bLbb</idno></item>
+            <item>
+               <idno type="stc">L15</idno>
+               <name>St. Paul's Cathedral</name>
+               <placeName>London</placeName>
+               <idno type="estc">bLspc</idno></item>
+            <item>
+               <idno type="stc">L16</idno>
+               <name>Wellcome Institute of the History of Medicine</name>
+               <placeName>London</placeName>
+               <idno type="estc">bLwe</idno></item>
+            <item>
+               <idno type="stc">L17</idno>
+               <name>Royal College of Physicians of London</name>
+               <placeName>London</placeName>
+               <idno type="estc">bLrcp</idno></item>
+            <item>
+               <idno type="stc">L18</idno>
+               <name>Victoria and Albert Museum</name>
+               <placeName>London</placeName>
+               <idno type="estc">bLv</idno></item>
+            <item>
+               <idno type="stc">L19</idno>
+               <name>Royal College of Surgeons of England</name>
+               <placeName>London</placeName>
+               <idno type="estc">bLrcs</idno></item>
+            <item>
+               <idno type="stc">L20</idno>
+               <name>Privy Council Office</name>
+               <placeName>London</placeName>
+               <idno type="estc">bLpco</idno></item>
+            <item>
+               <idno type="stc">L21</idno>
+               <name>Inner Temple Library</name>
+               <placeName>London</placeName>
+               <idno type="estc">bLi</idno></item>
+            <item>
+               <idno type="stc">L21(destroyed?)</idno>
+               <name>Inner Temple Library (destroyed)</name>
+               <placeName>London</placeName>
+               <note>bd. vol. of Charles I proclamation, apparently destroyed during World War
+                  II</note>
+            </item>
+            <item>
+               <idno type="stc">L22</idno>
+               <name>Lincoln's Inn Library</name><placeName>London</placeName>
+               <idno type="estc">bLli</idno></item>
+            <item>
+               <idno type="stc">L23</idno>
+               <name>Law Society's Library</name>
+               <placeName>London</placeName>
+               <idno type="estc">bLls</idno></item>
+            <item>
+               <idno type="stc">L24</idno>
+               <name>Hampstead Public Library</name>
+               <placeName>London</placeName>
+               <idno type="estc">bLham</idno></item>
+            <item>
+               <idno type="stc">L25</idno>
+               <name>Middle Temple Library</name>
+               <placeName>London</placeName>
+               <idno type="estc">bLmt</idno></item>
+            <item>
+               <idno type="stc">L26</idno>
+               <name>Brompton Oratory</name>
+               <placeName>London</placeName>
+               <idno type="estc">bLbo</idno></item>
+            <item>
+               <idno type="stc">L27</idno>
+               <note>= W</note>
+               <idno type="estc">bWARE</idno>
+            </item>
+            <item>
+               <idno type="stc">L28</idno>
+               <name>Royal Institute of British Architects</name>
+               <placeName>London</placeName>
+               <idno type="estc">bLria</idno></item>
+            <item>
+               <idno type="stc">L29</idno>
+               <name>Baptist Union Library</name>
+               <placeName>London</placeName>
+               <note>Deposited at O28</note>
+               <idno type="estc">bLbu</idno></item>
+            <item>
+               <idno type="stc">L30</idno>
+               <name>London University</name>
+               <placeName>London</placeName>
+               <idno type="estc">bLu</idno></item>
+            <item>
+               <idno type="stc">L31</idno>
+               <name>Congregational Library</name>
+               <placeName>Gordon Square, London</placeName>
+               <idno type="estc">bLmh</idno></item>
+            <item>
+               <idno type="stc">L32</idno>
+               <name>Sir Isaac Pitman Library</name>
+               <placeName>London</placeName>
+               <note>Now housed at the University of Bath</note>
+               <idno type="estc">bBATu</idno></item>
+            <item>
+               <idno type="stc">L33</idno>
+               <name>National Maritime Museum</name>
+               <placeName>Greenwich</placeName>
+               <idno type="estc">bLmm</idno></item>
+            <item>
+               <idno type="stc">L34</idno>
+               <name>St. Augustine's Priory</name>
+               <placeName>Ealing</placeName>
+               <idno type="estc">bLsap</idno></item>
+            <item>
+               <idno type="stc">L35</idno>
+               <name>Gillow Library, Catholic Record Society</name>
+               <note>now housed at L9</note>
+               <idno type="estc">bLsj</idno></item>
+            <item>
+               <idno type="stc">L36</idno>
+               <name>Stationers' and Newspapermaker's Company</name>
+               <placeName>London</placeName>
+               <idno type="estc">bLcst</idno></item>
+            <item>
+               <idno type="stc">L37</idno>
+               <note>[not used]</note>
+            </item>
+            <item>
+               <idno type="stc">L38</idno>
+               <name>University College London</name>
+               <placeName>London</placeName>
+               <idno type="estc">bLuu</idno></item>
+            <item>
+               <idno type="stc">L39</idno>
+               <name>Medical Society of London</name>
+               <placeName>London</placeName>
+               <idno type="estc">bLms</idno></item>
+            <item>
+               <idno type="stc">L40</idno>
+               <name>Collection of the late André Simon p&#xe8;re</name>
+               <note>Dispersed</note>
+            </item>
+            <item>
+               <idno type="stc">L41</idno>
+               <name>St. Bride Printing Library</name>
+               <placeName>London</placeName>
+               <idno type="estc">bLsb</idno></item>
+            <item>
+               <idno type="stc">L42</idno>
+               <name>Metropolitan Cathedral of St. George (R.C.)</name>
+               <placeName>Lambeth Road, Southwark</placeName>
+               <idno type="estc">bLmcg</idno></item>
+            <item>
+               <idno type="stc">L43</idno>
+               <name>The London Library</name>
+               <placeName>London</placeName>
+               <idno type="estc">bLll</idno></item>
+            <item>
+               <idno type="stc">L44</idno>
+               <name>Westminster School</name>
+               <placeName>London</placeName>
+               <idno type="estc">bLws</idno></item>
+            <item>
+               <idno type="stc">L45</idno>
+               <name>Institute of Chartered Accountants in England and Wales</name>
+               <placeName>London</placeName>
+               <idno type="estc">bLica</idno></item>
+            <item>
+               <idno type="stc">L46</idno>
+               <name>New College</name>
+               <placeName>London</placeName>
+               <note>Deposited at L3</note>
+               <idno type="estc">bLdw</idno></item>
+            <item>
+               <idno type="stc">L47</idno>
+               <name>Greater London Council (Members' Library)</name>
+               <placeName>London</placeName>
+               <note>If Greater London Council = Great London History Library</note>
+               <idno type="estc">bLglc</idno></item>
+            <item>
+               <idno type="stc">L48</idno>
+               <name>British Library of Political and Economic Science</name>
+               <placeName>London</placeName>
+               <idno type="estc">bLse</idno></item>
+            <item>
+               <idno type="stc">L49</idno>
+               <name>Gray's Inn Library</name>
+               <placeName>London</placeName>
+               <idno type="estc">bLgi</idno></item>
+            <item>
+               <idno type="stc">LAMPORT</idno>
+               <name>Lamport Hall</name>
+               <placeName>Northampton</placeName>
+               <idno type="estc">bNORl</idno></item>
+            <item>
+               <idno type="stc">LC</idno>
+               <name>Library of Congress</name>
+               <placeName>Washington, DC</placeName>
+               <idno type="estc">nDLC</idno></item>
+            <item>
+               <idno type="stc">LE</idno>
+               <name>Carmelite Convent</name>
+               <placeName>Lanherne, Cornwall</placeName>
+               <idno type="estc">bLANH</idno></item>
+            <item>
+               <idno type="stc">LEEDS</idno>
+               <name>University of Leeds</name>
+               <idno type="estc">bLEu</idno></item>
+            <item>
+               <idno type="stc">LEIC</idno>
+               <name>Museum &amp; Art Gallery</name>
+               <placeName>Leicester</placeName>
+               <idno type="estc">bLCm</idno></item>
+            <item>
+               <idno type="stc">LEIC2</idno>
+               <name>University of Leicester</name>
+               <placeName>Leicester</placeName>
+               <idno type="estc">bLCu</idno></item>
+            <item>
+               <idno type="stc">Leighton Library, Dunblane Cathedral</idno>
+               <idno type="estc">bDBL</idno></item>
+            <item>
+               <idno type="stc">Lewis</idno>
+               <name>The Lewis Walpole Library</name>
+               <placeName>Farmington, CT</placeName>
+               <idno type="estc">nCtY-LW</idno></item>
+            <item>
+               <idno type="stc">LICH</idno>
+               <name>Lichfield Cathedral</name>
+               <idno type="estc">bLICc</idno></item>
+            <item>
+               <idno type="stc">LINC</idno>
+               <name>Lincoln Cathedral</name>
+               <idno type="estc">bLIN</idno></item>
+            <item>
+               <idno type="stc">LINDLEY</idno>
+               <name>Royal Horticultural Society</name>
+               <placeName>London</placeName>
+               <idno type="estc">bLrhs</idno></item>
+            <item>
+               <idno type="stc">LIV</idno>
+               <name>Liverpool Cathedral (Anglican)</name>
+               <note>Deposited at LIV3</note>
+               <idno type="estc">bLVc</idno></item>
+            <item>
+               <idno type="stc">LIV2</idno>
+               <name>Public Library, Liverpool</name>
+               <placeName>Liverpool</placeName>
+               <note>Now Liverpool Central Libraries</note>
+               <idno type="estc">bLVp</idno>
+            </item>
+            <item>
+               <idno type="stc">LIV3</idno>
+               <name>University of Liverpool</name>
+               <idno type="estc">bLVu</idno></item>
+            <item>
+               <idno type="stc">LK</idno>
+               <name>Lanhydrock</name>
+               <placeName>Bodmin, Cornwall</placeName>
+               <note>Private collection</note></item>
+            <item>
+               <idno type="stc">London, Royal Institution of Naval Architects</idno>
+               <note>Collection largely dispersed in a sale at Christie's 4 and 5 December
+                  1974</note>
+            </item>
+            <item>
+               <idno type="stc">LONGLEAT</idno>
+               <name>Longleat</name>
+               <placeName>Warminster, Wiltshire</placeName>
+               <note>(Marques of Bath)</note>
+               <idno type="estc">bLONG</idno></item>
+            <item>
+               <idno type="stc">Lownes, Albert E., Collection of.</idno>
+               <note>Now = BR</note>
+               <idno type="estc">nRPB</idno></item>
+            <item>
+               <idno type="stc">LYD</idno>
+               <name>Derry and Raphoe Diocesan Library</name>
+               <placeName>Londonderry</placeName>
+               <idno type="estc">bLONd</idno></item>
+            <item>
+               <idno type="stc">LYU</idno>
+               <name>Magee University College</name>
+               <placeName>Londonderry</placeName>
+               <idno type="estc">bLONu</idno></item>
+            <item>
+               <idno type="stc">M</idno>
+               <name>John Rylands University Library</name>
+               <placeName>Manchester</placeName>
+               <idno type="estc">bMRu</idno></item>
+            <item>
+               <idno type="stc">M2</idno>
+               <name>Chetham's Library</name>
+               <placeName>Manchester</placeName>
+               <idno type="estc">bMRc</idno></item>
+            <item>
+               <idno type="stc">M3</idno>
+               <name>Central Library, Manchester</name>
+               <placeName>Manchester</placeName>
+               <idno type="estc">bMRp</idno></item>
+            <item>
+               <idno type="stc">M4</idno>
+               <note>= M</note>
+               <idno type="estc">bMRu</idno>
+            </item>
+            <item>
+               <idno type="stc">M5</idno>
+               <name>Northern Congregational College</name>
+               <placeName>Manchester</placeName>
+               <note>Deposited at M</note>
+               <idno type="estc">bMRu</idno></item>
+            <item>
+               <idno type="stc">MCG</idno>
+               <name>McGill University</name>
+               <placeName>Montreal</placeName>
+               <idno type="estc">nCaQMMRB</idno></item>
+
+            <item><name>McMaster University</name>
+               <placeName>Hamilton, Ontario</placeName>
+               <idno type="estc">nCaOHM</idno></item>
+            <item>
+               <idno type="stc">Mansbridge, Ronald, Collection of.</idno>
+               <note>Now = Waseda University Tokyo</note>
+            </item>
+            <item>
+               <idno type="stc">MAPL</idno>
+               <name>Mapledurham House</name>
+               <placeName>Oxfordshire</placeName>
+               <idno type="estc">bMAP</idno></item>
+            <item>
+               <idno type="stc">MARL</idno>
+               <name>The Vicar's Library, St. Mary's Church</name>
+               <placeName>Marlborough, Wiltshare</placeName>
+               <note> Deposited at O</note>
+               <idno type="estc">bO</idno></item>
+            <item>
+               <idno type="stc">Maxwell, W. Stirling</idno>
+               <placeName>Brookings, Oregon</placeName>
+               <note>Private collection</note></item>
+            <item>
+               <idno type="stc">MAYNOOTH</idno>
+               <name>St. Patrick's College</name>
+               <placeName>Maynooth, County Kildare</placeName>
+               <idno type="estc">bMY</idno></item>
+            <item>
+               <idno type="stc">MEL</idno>
+               <name>State Library of Victoria</name>
+               <placeName>Melbourne</placeName>
+               <idno type="estc">oAuVSL</idno></item>
+            <item>
+               <idno type="stc">Mellon, Paul, Collection of.</idno>
+               <note>Now = Yale Center for British Art, New Haven, CT</note>
+               <idno type="estc">nCtY-BA</idno></item>
+            <item>
+               <idno type="stc">MICH</idno>
+               <name>University of Michigan</name>
+               <placeName>Ann Arbor, MI</placeName>
+               <idno type="estc">nMiU</idno></item>
+            <item>
+               <idno type="stc">MIN</idno>
+               <name>University of Minnesota</name>
+               <placeName>Minneapolis, MN</placeName>
+               <idno type="estc">nMnU</idno></item>
+            <item>
+               <idno type="stc">Moore TC</idno>
+               <name>Moore Theological College</name>
+               <placeName>Newtown, New South Wales, Australia</placeName>
+               <idno type="estc">oAuNMTC</idno></item>
+            <item>
+               <idno type="stc">MSB</idno>
+               <name>Mount St. Bernard Abbey</name>
+               <placeName>Coalville, Leicestershire</placeName>
+               <idno type="estc">bCOA</idno></item>
+            <item>
+               <idno type="stc">MSM</idno>
+               <name>Mount St. Mary's College</name>
+               <placeName>Chesterfield, Derbyshire</placeName>
+               <idno type="estc">bCHF</idno></item>
+            <item>
+               <idno type="stc">N</idno>
+               <name>Newberry Library</name>
+               <placeName>Chicago, IL</placeName>
+               <idno type="estc">nICN</idno></item>
+            <item>
+               <idno type="stc">Nash, Ray.</idno>
+               <note>Items cited Now = L</note>
+               <idno type="estc">bL</idno></item>
+            <item>
+               <idno type="stc">NCU</idno>
+               <name>University of North Carolina</name>
+               <placeName>Chapel Hill, NC</placeName>
+               <idno type="estc">nNcU</idno></item>
+            <item>
+               <idno type="stc">NEK</idno>
+               <name>Newcastle University</name>
+               <placeName>Newcastle Upon Tyne</placeName>
+               <note>(formerly King's College)</note>
+               <idno type="estc">bNCu</idno></item>
+            <item>
+               <idno type="stc">NEP</idno>
+               <name>Central Library, Newcastle upon Tyne</name>
+               <placeName>Newcastle upon Tyne</placeName>
+               <idno type="estc">bNCp</idno></item>
+            <item>
+               <idno type="stc">NLA</idno>
+               <name>National Library of Australia</name>
+               <placeName>Canberra</placeName>
+               <idno type="estc">oAuANL</idno></item>
+            <item>
+               <idno type="stc">NLM</idno>
+               <name>National Library of Medicine</name>
+               <placeName>Bethesda, MD</placeName>
+               <idno type="estc">nDNLM</idno></item>
+            <item>
+               <idno type="stc">NLW</idno>
+               <name>National Library of Wales</name>
+               <placeName>Aberystwyth</placeName>
+               <idno type="estc">bAWn</idno></item>
+            <item>
+               <idno type="stc">NLW(St. Asaph)</idno>
+               <name>St. Asaph Cathedral Library</name>
+               <placeName>Aberystwyth</placeName>
+               <idno type="estc">bSASc</idno></item>
+            <item>
+               <idno type="stc">NMU</idno>
+               <name>University of Nottingham</name>
+               <idno type="estc">bNOu</idno></item>
+            <item>
+               <idno type="stc">NOR</idno>
+               <name>Norwich Cathedral</name>
+               <idno type="estc">bNOWc</idno></item>
+            <item>
+               <idno type="stc">NOR2</idno>
+               <name>Central Library, Norwich</name>
+               <placeName>Norwich</placeName>
+               <idno type="estc">bNOW</idno></item>
+            <item>
+               <idno type="stc">NRO</idno>
+               <name>Northamptonshire Record Office, Delapré Abbey</name>
+               <placeName>Northamptonshire</placeName>
+               <idno type="estc">bNORr</idno></item>
+            <item>
+               <idno type="stc">NSW</idno>
+               <name>State Library of New South Wales</name>
+               <placeName>Sydney</placeName>
+               <idno type="estc">oAuNSL</idno></item>
+            <item>
+               <idno type="stc">NW</idno>
+               <name>Northwestern University</name>
+               <placeName>Evanston, IL</placeName>
+               <idno type="estc">nIEN</idno></item>
+            <item>
+               <idno type="stc">NWM</idno>
+               <name>Northwestern University, (Archibald Church Medical Library)</name>
+               <placeName>Chicago, IL</placeName>
+               <idno type="estc">nIEN</idno></item>
+            <item>
+               <idno type="stc">NY</idno>
+               <name>New York Public Library</name>
+               <placeName>New York City, NY</placeName>
+               <idno type="estc">nNN</idno></item>
+            <item>
+               <idno type="stc">NY2</idno>
+               <name>New-York Historical Society</name>
+               <placeName>New York City, NY</placeName>
+               <idno type="estc">nNHi</idno></item>
+            <item>
+               <idno type="stc">NY3</idno>
+               <name>Engineering Societies Library</name>
+               <placeName>New York City, NY</placeName>
+               <idno type="estc">nNNE</idno></item>
+            <item>
+               <idno type="stc">NY4</idno>
+               <name>New York Academy of Medicine</name>
+               <placeName>New York City, NY</placeName>
+               <idno type="estc">nNNNAM</idno></item>
+            <item>
+               <idno type="stc">NY5</idno>
+               <name>Hispanic Society of America</name>
+               <placeName>New York City, NY</placeName>
+               <idno type="estc">nNNH</idno></item>
+            <item>
+               <idno type="stc">NY6</idno>
+               <name>American Bible Society</name>
+               <placeName>New York City, NY</placeName>
+               <idno type="estc">nNNAB</idno></item>
+            <item>
+               <idno type="stc">NY7</idno>
+               <name>New York University</name>
+               <placeName>New York City, NY</placeName>
+               <idno type="estc">nNNU</idno></item>
+            <item>
+               <idno type="stc">NY8</idno>
+               <name>New York Society Library</name>
+               <placeName>New York City, NY</placeName>
+               <idno type="estc">nNNYSL</idno></item>
+            <item>
+               <idno type="stc">NY9</idno>
+               <name>Jewish Theological Seminary</name>
+               <placeName>New York City, NY</placeName>
+               <idno type="estc">nNNJ</idno></item>
+            <item>
+               <idno type="stc">NY10</idno>
+               <name>New York Racquet &amp; Tennis Club</name>
+               <placeName>New York City, NY</placeName>
+               <idno type="estc">nNNRT</idno></item>
+            <item>
+               <idno type="stc">NY11</idno>
+               <name>General Theological Seminary</name>
+               <placeName>New York City, NY</placeName>
+               <idno type="estc">nNNG</idno></item>
+            <item>
+               <idno type="stc">NYS</idno>
+               <name>New York State Library</name>
+               <placeName>Albany, NY</placeName>
+               <idno type="estc">nN</idno></item>
+            <item>
+               <idno type="stc">O</idno>
+               <name>Bodleian Library</name>
+               <placeName>Oxford</placeName>
+               <idno type="estc">bO</idno></item>
+            <item>
+               <idno type="stc">O(J)</idno>
+               <name>John Johnson Collection</name>
+               <placeName>Oxford</placeName>
+               <idno type="estc">bO</idno></item>
+            <item>
+               <idno type="stc">O2</idno>
+               <name>Queen's College</name>
+               <placeName>Oxford</placeName>
+               <idno type="estc">bOq</idno></item>
+            <item>
+               <idno type="stc">O3</idno>
+               <name>Christ Church</name>
+               <placeName>Oxford</placeName>
+               <idno type="estc">bOc</idno></item>
+            <item>
+               <idno type="stc">O3(E)</idno>
+               <name>Evelyn Library</name>
+               <placeName>Oxford</placeName>
+               <note>dispersed, see Evelyn</note>
+            </item>
+            <item>
+               <idno type="stc">O3(W)</idno>
+               <name>Wotton-under-Edge Parish Library</name>
+               <note>at O</note>
+               <placeName>Oxford</placeName>
+               <idno type="estc">bWOW</idno></item>
+            <item>
+               <idno type="stc">O4</idno>
+               <name>Brasenose College</name>
+               <placeName>Oxford</placeName>
+               <idno type="estc">bObr</idno></item>
+            <item>
+               <idno type="stc">O5</idno>
+               <name>Corpus Christi College</name>
+               <placeName>Oxford</placeName>
+               <idno type="estc">bOcc</idno></item>
+            <item>
+               <idno type="stc">O6</idno>
+               <name>Worcester College</name>
+               <placeName>Oxford</placeName>
+               <idno type="estc">bOwo</idno></item>
+            <item>
+               <idno type="stc">O7</idno>
+               <name>Wadham College</name>
+               <placeName>Oxford</placeName>
+               <idno type="estc">bOwa</idno></item>
+            <item>
+               <idno type="stc">O8</idno>
+               <name>St. John's College</name>
+               <placeName>Oxford</placeName>
+               <idno type="estc">bOsj</idno></item>
+            <item>
+               <idno type="stc">O9</idno>
+               <name>All Souls College</name>
+               <placeName>Oxford</placeName>
+               <idno type="estc">bOa</idno></item>
+            <item>
+               <idno type="stc">O10</idno>
+               <name>Exeter College</name>
+               <placeName>Oxford</placeName>
+               <idno type="estc">bOe</idno></item>
+            <item>
+               <idno type="stc">O11</idno>
+               <name>Merton College</name>
+               <placeName>Oxford</placeName>
+               <idno type="estc">bOm</idno></item>
+            <item>
+               <idno type="stc">O12</idno>
+               <name>Magdalen College</name>
+               <placeName>Oxford</placeName>
+               <idno type="estc">bOma</idno></item>
+            <item>
+               <idno type="stc">O13</idno>
+               <name>Lincoln College</name>
+               <placeName>Oxford</placeName>
+               <idno type="estc">bOl</idno></item>
+            <item>
+               <idno type="stc">O14</idno>
+               <name>New College</name>
+               <placeName>Oxford</placeName>
+               <idno type="estc">bOn</idno></item>
+            <item>
+               <idno type="stc">O15</idno>
+               <name>Oxford University Archives, Bodleian Library</name>
+               <placeName>Oxford</placeName>
+               <idno type="estc">bOua</idno></item>
+            <item>
+               <idno type="stc">O16</idno>
+               <name>Trinity College</name>
+               <placeName>Oxford</placeName>
+               <idno type="estc">bOt</idno></item>
+            <item>
+               <idno type="stc">O17</idno>
+               <name>Balliol College</name>
+               <placeName>Oxford</placeName>
+               <idno type="estc">bOb</idno></item>
+            <item>
+               <idno type="stc">O18</idno>
+               <name>Jesus College</name>
+               <placeName>Oxford</placeName>
+               <idno type="estc">bOj</idno></item>
+            <item>
+               <idno type="stc">O19</idno>
+               <name>Oriel College</name>
+               <placeName>Oxford</placeName>
+               <idno type="estc">bOo</idno></item>
+            <item>
+               <idno type="stc">O20</idno>
+               <name>Mansfield College</name>
+               <placeName>Oxford</placeName>
+               <idno type="estc">bOman</idno></item>
+            <item>
+               <idno type="stc">O21</idno>
+               <name>Manchester College</name>
+               <placeName>Oxford</placeName>
+               <idno type="estc">bOmc</idno></item>
+            <item>
+               <idno type="stc">O22</idno>
+               <name>Hertford College</name>
+               <placeName>Oxford</placeName>
+               <idno type="estc">bOh</idno></item>
+            <item>
+               <idno type="stc">O23</idno>
+               <note>[not used]</note>
+            </item>
+            <item>
+               <idno type="stc">O24</idno>
+               <name>Pembroke College</name>
+               <placeName>Oxford</placeName>
+               <idno type="estc">bOp</idno></item>
+            <item>
+               <idno type="stc">O25</idno>
+               <name>Pusey House</name>
+               <placeName>Oxford</placeName>
+               <idno type="estc">bOph</idno></item>
+            <item>
+               <idno type="stc">O26</idno>
+               <name>St. Edmund Hall</name>
+               <placeName>Oxford</placeName>
+               <idno type="estc">bOse</idno></item>
+            <item>
+               <idno type="stc">O27</idno>
+               <name>University College</name>
+               <placeName>Oxford</placeName>
+               <idno type="estc">bOu</idno></item>
+            <item>
+               <idno type="stc">O28</idno>
+               <name>Regent's Park College</name>
+               <placeName>Oxford</placeName>
+               <idno type="estc">bOr</idno></item>
+            <item>
+               <idno type="stc">O28(Bed.)</idno>
+               <name>Beddome Library, Regent's Park College</name>
+               <placeName>Oxford</placeName>
+               <idno type="estc">bOr</idno>
+            </item>
+            <item>
+               <idno type="stc">O29</idno>
+               <name>Somerville College</name>
+               <placeName>Oxford</placeName>
+               <idno type="estc">bOs</idno></item>
+            <item>
+               <idno type="stc">O30</idno>
+               <name>Taylor Institution</name>
+               <placeName>Oxford</placeName>
+               <idno type="estc">bOta</idno></item>
+            <item>
+               <idno type="stc">O31</idno>
+               <name>Keble College</name>
+               <placeName>Oxford</placeName>
+               <idno type="estc">bOk</idno></item>
+            <item>
+               <idno type="stc">O32</idno>
+               <name>St. Hilda's College</name>
+               <placeName>Oxford</placeName>
+               <idno type="estc">bOshi</idno></item>
+            <item>
+               <idno type="stc">O33</idno>
+               <name>Department of Agriculture</name>
+               <placeName>Oxford</placeName>
+               <idno type="estc">bOdb</idno></item>
+            <item>
+               <idno type="stc">O34</idno>
+               <name>Ashmolean Museum</name>
+               <placeName>Oxford</placeName>
+               <idno type="estc">bOam</idno></item>
+            <item>
+               <idno type="stc">O35</idno>
+               <name>Blackfriars Priory</name>
+               <placeName>Oxford</placeName>
+               <idno type="estc">bObl</idno></item>
+            <item>
+               <idno type="stc">O36</idno>
+               <name>Botany Department</name>
+               <placeName>Oxford</placeName>
+               <note>Partly deposited at O</note>
+               <idno type="estc">bOdb</idno></item>
+            <item>
+               <idno type="stc">O37</idno>
+               <name>Campion Hall</name>
+               <placeName>Oxford</placeName>
+               <idno type="estc">bOch</idno></item>
+            <item>
+               <idno type="stc">O38</idno>
+               <name>Oxford University Press</name>
+               <placeName>Oxford</placeName>
+               <note>Partly deposited at O</note>
+               <idno type="estc">bOup</idno></item>
+            <item>
+               <idno type="stc">O39</idno>
+               <name>English Faculty Library</name>
+               <placeName>Oxford</placeName>
+               <idno type="estc">bOef</idno></item>
+            <item>
+               <idno type="stc">O40</idno>
+               <name>School of Geography</name>
+               <placeName>Oxford</placeName>
+               <idno type="estc">bOg</idno></item>
+            <item>
+               <idno type="stc">O41</idno>
+               <name>Greyfriars Priory</name>
+               <placeName>Oxford</placeName>
+               <idno type="estc">bOgp</idno></item>
+            <item>
+               <idno type="stc">O42</idno>
+               <name>Hope Collection, Ashmolean Museum</name>
+               <placeName>Oxford</placeName>
+               <note>Hope Collection now = Oxford University Hope Department of Entomology</note>
+               <idno type="estc">bOhde</idno></item>
+            <item>
+               <idno type="stc">O43</idno>
+               <name>Museum of the History of Science</name>
+               <placeName>Oxford</placeName>
+               <idno type="estc">bOmhs</idno></item>
+            <item>
+               <idno type="stc">O44</idno>
+               <name>Lady Margaret Hall</name>
+               <placeName>Oxford</placeName>
+               <idno type="estc">bOlmh</idno></item>
+            <item>
+               <idno type="stc">O45</idno>
+               <note>[not used]</note>
+            </item>
+            <item>
+               <idno type="stc">O46</idno>
+               <name>St. Anne's College</name>
+               <placeName>Oxford</placeName>
+               <idno type="estc">bOsa</idno></item>
+            <item>
+               <idno type="stc">O47</idno>
+               <name>St. Hugh's College</name>
+               <placeName>Oxford</placeName>
+               <idno type="estc">bOshu</idno></item>
+            <item>
+               <idno type="stc">O48</idno>
+               <name>Philosophy Library</name>
+               <placeName>Oxford</placeName>
+               <idno type="estc">bOphl</idno></item>
+            <item>
+               <idno type="stc">Oberlin College</idno>
+               <placeName>Oberlin, OH</placeName>
+               <idno type="estc">nOO</idno></item>
+            <item>
+               <idno type="stc">OS</idno>
+               <name>St. Mary's Seminary</name>
+               <placeName>New Oscott, Sutton Coldfield, Warwickshire</placeName>
+               <idno type="estc">bSC</idno></item>
+            <item>
+               <idno type="stc">Osborn, James M., Collection of</idno>
+               <note>Now = Y</note>
+               <idno type="estc">nCtY</idno></item>
+            <item>
+               <idno type="stc">Otago University</idno>
+               <placeName>Dunedin, New Zealand</placeName>
+               <idno type="estc">oZDU</idno></item>
+            <item>
+               <idno type="stc">OULT</idno>
+               <name>St. Mary's Abbey</name>
+               <placeName>Oulton, Staffordshire</placeName>
+               <idno type="estc">bOUL</idno></item>
+            <item>
+               <idno type="stc">P</idno>
+               <name>Peterborough Cathedral</name>
+               <note>On long-term deposit at C</note>
+               <idno type="estc">bC</idno></item>
+            <item>
+               <idno type="stc">PARIS</idno>
+               <name>Biblioth&#xe8;que Nationale</name>
+               <placeName>Paris</placeName>
+               <note>Includes Bliss Collection on Mary Queen of Scots</note>
+               <idno type="estc">eP</idno></item>
+            <item>
+               <idno type="stc">PARIS2</idno>
+               <name>Biblioth&#xe8;que de l'Arsenal</name>
+               <placeName>Paris</placeName>
+               <idno type="estc">ePa</idno></item>
+            <item>
+               <idno type="stc">PARIS3</idno>
+               <name>Biblioth&#xe8;que Mazarine</name>
+               <placeName>Paris</placeName>
+               <idno type="estc">ePm</idno></item>
+            <item>
+               <idno type="stc">Pearson, Norman H., Collection of.</idno>
+               <note>Now = Y</note>
+               <idno type="estc">nCtY</idno></item>
+            <item>
+               <idno type="stc">PEN</idno>
+               <name>University of Pennsylvania</name>
+               <placeName>Philadelphia, PA</placeName>
+               <idno type="estc">nPU</idno></item>
+            <item>
+               <idno type="stc">PEN2</idno>
+               <name>Pennsylvania State University</name>
+               <placeName>University Park, PA</placeName>
+               <idno type="estc">nP</idno></item>
+            <item>
+               <idno type="stc">Penrose, Boies, Collection of</idno>
+               <note>Largely dispersed in sales at Sotheby's 7 June and 9 Nov. 1971</note>
+            </item>
+            <item>
+               <idno type="stc">PETWORTH</idno>
+               <name>Petworth House</name>
+               <placeName>Petworth, Sussex</placeName>
+               <note>(Lord Egremont)</note>
+               <idno type="estc">bNT</idno></item>
+            <item>
+               <idno type="stc">PETYT</idno>
+               <name>Public Library, Skipton</name>
+               <placeName>Skipton, Yorkshire</placeName>
+               <note>(The Petyt Library)</note>
+               <idno type="estc">bSKIpl</idno></item>
+            <item>
+               <idno type="stc">PFOR</idno>
+               <name>Carl H. Pforzheimer Library</name>
+               <placeName>New York City, NY</placeName>
+               <idno type="estc">Private college</idno></item>
+            <item>
+               <idno type="stc">PH</idno>
+               <name>Library Company of Philadelphia</name>
+               <placeName>Philadelphia, PA</placeName>
+               <idno type="estc">nPPL</idno></item>
+            <item>
+               <idno type="stc">PH2</idno>
+               <name>Free Library of Philadelphia</name>
+               <placeName>Philadelphia, PA</placeName>
+               <idno type="estc">nPP</idno></item>
+            <item>
+               <idno type="stc">Ph3</idno>
+               <note> = PH2</note>
+               <idno type="estc">nPP</idno></item>
+            <item>
+               <idno type="stc">PH4</idno>
+               <name>Franklin Institute</name>
+               <placeName>Philadelphia, PA</placeName>
+               <idno type="estc">nPPF</idno></item>
+            <item>
+               <idno type="stc">PH5</idno>
+               <name>Presbyterian Historical Society</name>
+               <placeName>Philadelphia, PA</placeName>
+               <idno type="estc">nPPPrHi</idno></item>
+            <item>
+               <idno type="stc">PH6</idno>
+               <name>Lutheran Theological Seminary</name>
+               <placeName>Philadelphia, PA</placeName>
+               <idno type="estc">nPPLT</idno></item>
+            <item>
+               <idno type="stc">PH7</idno>
+               <name>Historical Society of Pennsylvania</name>
+               <note>Deposited at PH</note>
+               <idno type="estc">nPPL</idno></item>
+            <item>
+               <idno type="stc">Phillipps</idno>
+               <note>Sales at Sotheby's on 26-7 Nov. 1973 and 24-5 June and 25-6 Nov.
+               1974</note></item>
+            <item>
+               <idno type="stc">Pirie, Robert S.</idno>
+               <placeName>Hamilton, Mass</placeName>
+               <note>Dispursed through sale at Sotheby's New York 2–4 December 2015</note>
+            </item>
+            <item>
+               <idno type="stc">PLUME</idno>
+               <name>Plume Library</name>
+               <placeName>Maldon, Essex</placeName>
+               <idno type="estc">bMAL</idno></item>
+            <item>
+               <idno type="stc">PML</idno>
+               <name>Pierpont Morgan Library</name>
+               <placeName>New York City, NY</placeName>
+               <idno type="estc">nNNPM</idno></item>
+            <item>
+               <idno type="stc">PN</idno>
+               <name>Princeton University</name>
+               <placeName>Princeton, NJ</placeName>
+               <idno type="estc">nNjP</idno></item>
+            <item>
+               <idno type="stc">PN2</idno>
+               <name>Princeton Theological Seminary</name>
+               <placeName>Princeton, NJ</placeName>
+               <idno type="estc">nNjPT</idno></item>
+            <item>
+               <idno type="stc">Private Owner</idno>
+               <note>Requests for information should be addressed to the Hon. Secretary of the
+                  Bibliographical Society, for forwarding to the owner</note>
+            </item>
+            <item>
+               <idno type="stc">PTS</idno>
+               <name>Pittsburgh Theological Seminary</name>
+               <placeName>Pittsburgh, PA</placeName>
+               <idno type="estc">nPPiPT</idno></item>
+            <item>
+               <idno type="stc">Quaritch, Bernard, Ltd., Bookseller</idno>
+               <placeName>London</placeName>
+               <note>Private collection</note></item>
+            <item>
+               <idno type="stc">Queen's University at Kingston</idno>
+               <placeName>Kingston, Ontario</placeName>
+               <idno type="estc">nCaOKQ</idno></item>
+            <item>
+               <idno type="stc">R</idno>
+               <name>Ripon Cathedral</name>
+               <idno type="estc">bLEu</idno></item>
+            <item>
+               <idno type="stc">RD</idno>
+               <name>Rothamsted Experimental Station</name>
+               <placeName>Harpenden, Hertfordshire</placeName>
+               <idno type="estc">bHAR</idno></item>
+            <item>
+               <idno type="stc">RGU</idno>
+               <name>University of Reading</name>
+               <placeName>Reading, Berkshire</placeName>
+               <idno type="estc">bREu</idno></item>
+            <item>
+               <idno type="stc">ROCH</idno>
+               <name>University of Rochester</name>
+               <placeName>Rochester, NY</placeName>
+               <idno type="estc">nNRU</idno></item>
+            <item>
+               <idno type="stc">Rogers, David</idno>
+               <placeName>The Old Mill, Blewbury, Oxfordshire</placeName>
+               <note>Private collection</note></item>
+            <item>
+               <idno type="stc">ROME</idno>
+               <name>Ven. Collegio Inglese</name>
+               <placeName>Rome</placeName>
+               <idno type="estc">eRMci</idno></item>
+            <item>
+               <idno type="stc">ROS</idno>
+               <name>Rosenbach Foundation</name>
+               <placeName>Philadelphia, PA</placeName>
+               <idno type="estc">nPPRF</idno></item>
+            <item>
+               <idno type="stc">S</idno>
+               <name>William Salt Library, County Record OFfice</name>
+               <placeName>Stafford</placeName>
+               <idno type="estc">bSTA</idno></item>
+            <item>
+               <idno type="stc">S(S.1555(1)) etc.</idno>
+               <note>Proclamations of Charles I found only in the bd. Dyson vol. in William Salt
+                  Library, County Record OFfice</note>
+               <placeName>Stafford</placeName>
+               <idno type="estc">bSTA</idno></item>
+            <item>
+               <idno type="stc">SAL</idno>
+               <name>Salisbury Cathedral</name>
+               <idno type="estc">bSAYc</idno></item>
+            <item>
+               <idno type="stc">SAU</idno>
+               <name>University College, Swansea</name>
+               <placeName>Swansea</placeName>
+               <idno type="estc">bSWNu</idno></item>
+            <item>
+               <idno type="stc">SBK</idno>
+               <name>St. Mary's Abbey</name>
+               <placeName>Stanbrook, Worcester</placeName>
+               <idno type="estc">bWRma</idno></item>
+            <item>
+               <idno type="stc">SC</idno>
+               <name>University of South Carolina</name>
+               <placeName>Columbia, SC</placeName>
+               <idno type="estc">nScU</idno></item>
+            <item>
+               <idno type="stc">Scheide</idno> <name>The Scheide Library</name>
+               <note>Housed at PN</note>
+               <idno type="estc">nNjP</idno></item>
+            <item>
+               <idno type="stc">Schiller, Justin G., Ltd., Bookseller</idno>
+               <placeName>New York City, NY</placeName>
+               <note>Private colletion</note></item>
+            <item>
+               <idno type="stc">SCL</idno>
+               <name>Shropshire County Library</name>
+               <placeName>Shrewsbury</placeName>
+               <idno type="estc">bSHRp</idno></item>
+            <item>
+               <idno type="stc">Segal, David</idno>
+               <placeName>Cambridge, MA</placeName>
+               <note>Private collection</note></item>
+            <item>
+               <idno type="stc">Seven Gables Bookshop, Bookseller</idno>
+               <placeName>New York City, NY</placeName>
+               <note>Dispersed</note></item>
+            <item>
+               <idno type="stc">Sexton, Eric H. L., Collection of</idno>
+               <note>Dispersed in a sale at Christie's 15 Apr. 1981</note>
+            </item>
+            <item>
+               <idno type="stc">SH</idno>
+               <name>Shakespeare Centre</name>
+               <placeName>Stratford-upon-Avon</placeName>
+               <note>Shakespeare Centre = Shakespeare Birthplace Trust</note>
+               <idno type="estc">bSTRsb</idno>
+            </item>
+            <item>
+               <idno type="stc">SHEF</idno>
+               <name>University of Sheffield</name>
+               <idno type="estc">bSHu</idno></item>
+            <item>
+               <idno type="stc">SHR</idno>
+               <name>Shrewsbury School</name>
+               <idno type="estc">bSHRs</idno></item>
+            <item>
+               <idno type="stc">SLC</idno>
+               <name>Southwell Minster</name>
+               <idno type="estc">bSOM</idno>
+            </item>
+            <item>
+               <idno type="stc">SMITH</idno>
+               <name>Smith College</name>
+               <placeName>Northampton, MA</placeName>
+               <idno type="estc">nMNS</idno></item>
+            <item>
+               <idno type="stc">SMU</idno>
+               <name>Southern Methodist University</name>
+               <placeName>Dallas, TX</placeName>
+               <idno type="estc">nTxDaM</idno></item>
+            <item>
+               <idno type="stc">SN</idno>
+               <name>Syon Abbey</name>
+               <placeName>South Brent, Devon</placeName>
+               <idno type="estc">bSY</idno></item>
+            <item>
+               <idno type="stc">SNU</idno>
+               <placeName>University of Southampton</placeName>
+               <idno type="estc">bSPu</idno></item>
+            <item>
+               <idno type="stc">Sparrow, John</idno>
+               <placeName>Iffley, Oxfordshire</placeName>
+               <note>Private collection</note></item>
+            <item>
+               <idno type="stc">Spencer, Robert</idno>
+               <placeName>Woodford Green, Essex</placeName>
+               <note>Private collection</note></item>
+            <item>
+               <idno type="stc">ST</idno>
+               <name>Stonyhurst College</name>
+               <placeName>Whalley, Lancashire</placeName>
+               <idno type="estc">bWHs</idno></item>
+            <item>
+               <idno type="stc">STAN</idno>
+               <name>Stanford University</name>
+               <placeName>Stanford, CA</placeName>
+               <idno type="estc">nCSt</idno></item>
+            <item>
+               <idno type="stc">STAPEHILL</idno>
+               <name>Holy Cross Abbey</name>
+               <placeName>Stapehill, Dorset</placeName>
+               <idno type="estc">bSTH</idno></item>
+            <item>
+               <idno type="stc">STD</idno>
+               <name>St. David's University College</name>
+               <placeName>Lampeter</placeName>
+               <idno type="estc">bLAM</idno></item>
+            <item>
+               <idno type="stc">Stevens Cox</idno>
+               <name>James Stevens Cox</name>
+               <placeName> St. Sampson, Guernsey, Channel Islands</placeName>
+               <note>Private collection</note></item>
+            <item>
+               <idno type="stc">Stevens Cox, Gregory,</idno>
+               <placeName>St. Peter Port, Guernsey</placeName>
+               <note>Private collection</note></item>
+            <item>
+               <idno type="stc">STL</idno>
+               <name>St. Louis University</name>
+               <placeName>St. Louis, MO</placeName>
+               <idno type="estc">nMoSU</idno></item>
+            <item>
+               <idno type="stc">STU</idno>
+               <name>University of St. Andrews</name>
+               <idno type="estc">bSAN</idno></item>
+            <item>
+               <idno type="stc">SUNY(Buffalo)</idno>
+               <name>State University of New York, Buffalo</name>
+               <placeName>Buffalo, NY</placeName>
+               <idno type="estc">nNBuU</idno></item>
+            <item>
+               <idno type="stc">Sydney, University of</idno>
+               <placeName>Sydney, New South Wales</placeName>
+               <idno type="estc">oAuNU</idno></item>
+            <item>
+               <idno type="stc">Taussig, Anthony C.</idno>
+               <placeName>London</placeName>
+               <note>Private collection</note></item>
+            <item>
+               <idno type="stc">Taylor, Henry C., Collection of</idno>
+               <note>Now = Y</note>
+               <idno type="estc">nCtY</idno></item>
+            <item>
+               <idno type="stc">Taylor, Robert H., Collection of</idno>
+               <note>Housed at PN</note>
+               <idno type="estc">nNjP</idno></item>
+            <item>
+               <idno type="stc">TCU</idno>
+               <name>Texas Christian University</name>
+               <placeName>Fort Worth, TX</placeName>
+               <idno type="estc">nTxFTC</idno></item>
+            <item>
+               <idno type="stc">TEX</idno>
+               <name>University of Texas, Austin</name>
+               <placeName>Austin, TX</placeName>
+               <idno type="estc">nTxU</idno></item>
+            <item>
+               <idno type="stc">TEX2</idno>
+               <name>Moody Medical Library</name>
+               <placeName>Galveston, TX</placeName>
+               <idno type="estc">nTxU-M</idno></item>
+            <item>
+               <idno type="stc">TMTH</idno>
+               <name>St. Scholastica's Abbey</name>
+               <name>Teignmouth, Devon</name>
+               <idno type="estc">[no code]</idno></item>
+            <item>
+               <idno type="stc">TOKYO</idno>
+               <name>University of Tokyo</name>
+               <idno type="estc">oTOKu</idno></item>
+            <item>
+               <idno type="stc">TORONTO</idno>
+               <name>Academy of Medicine</name>
+               <placeName>Toronto, Ontario</placeName>
+               <idno type="estc">nCaOTA</idno></item>
+            <item>
+               <idno type="stc">TORONTO2</idno>
+               <name>University of Toronto</name>
+               <idno type="estc">nCaOTU</idno></item>
+            <item>
+               <idno type="stc">Traylen, Charles W., Bookseller</idno>
+               <placeName>Guildford, Surrey</placeName>
+               <note>Private collection</note></item>
+            <item>
+               <idno type="stc">U</idno>
+               <name>Union Theological Seminary</name>
+               <placeName>New York City, NY</placeName>
+               <idno type="estc">nNNUT</idno></item>
+            <item>
+               <idno type="stc">USHAW</idno>
+               <name>St. Cuthbert's College</name>
+               <placeName>Ushaw, Durham</placeName>
+               <note>Now known as Ushaw College</note>
+               <idno type="estc">bDUuc</idno>
+            </item>
+            <item>
+               <idno type="stc">V</idno>
+               <name>University of Virginia</name>
+               <placeName>Charlottesville, VA</placeName>
+               <idno type="estc">nViU</idno></item>
+            <item>
+               <idno type="stc">VAL</idno>
+               <name>Colegio-seminario de Ingleses</name>
+               <placeName>Valladolid, Spain</placeName>
+               <idno type="estc">eVALc</idno></item>
+            <item>
+               <idno type="stc">VER</idno>
+               <name>Verulam Plays</name>
+               <note>Deposited by the Earl of Verulam at O</note>
+               <idno type="estc">bO</idno></item>
+            <item>
+               <idno type="stc">W</idno>
+               <name>St. Edmund's College</name>
+               <placeName>Ware, Hertfordshire</placeName>
+               <idno type="estc">bWARE</idno></item>
+            <item>
+               <idno type="stc">WASH</idno>
+               <note>= LC</note>
+               <idno type="estc">nDLC</idno></item>
+            <item>
+               <idno type="stc">WASH2</idno>
+               <name>Catholic Univeristy of America</name>
+               <placeName>Washington, DC</placeName>
+               <idno type="estc">nDCU</idno></item>
+            <item>
+               <idno type="stc">WASH3</idno>
+               <name>Georgetown University</name>
+               <placeName>Washington, DC</placeName>
+               <idno type="estc">nDGU</idno></item>
+            <item>
+               <idno type="stc">Washington Cathedral</idno>
+               <placeName>Washington, DC</placeName>
+               <idno type="estc">nDNC</idno></item>
+            <item>
+               <idno type="stc">Weissman, Stephen, Collection of</idno>
+               <note>Dispersed</note></item>
+            <item>
+               <idno type="stc">WEL</idno>
+               <name>Wellesley College</name>
+               <placeName>Wellesley, MA</placeName>
+               <idno type="estc">nMWelC</idno></item>
+            <item>
+               <idno type="stc">WES</idno>
+               <name>Wesleyan University</name>
+               <placeName>Middletown, CT</placeName>
+               <idno type="estc">nCtW</idno></item>
+            <item>
+               <idno type="stc">Western Ontario, University of</idno>
+               <placeName>London, Ontario</placeName>
+               <idno type="estc">nCaOLU</idno></item>
+            <item>
+               <idno type="stc">Western Ontario(S.L.S.)</idno><name>School of Library Science,
+                  University of Western Ontario</name>
+               <placeName>London, Ontario</placeName>
+               <idno type="estc">nCaOLU</idno></item>
+            <item>
+               <idno type="stc">WI</idno>
+               <name>Central Library</name>
+               <placeName>Wigan, Lancashire</placeName>
+               <idno type="estc">bWIG</idno></item>
+            <item>
+               <idno type="stc">WIN</idno>
+               <name>Windsor Castle</name>
+               <placeName>Windsor, Berkshire</placeName>
+               <idno type="estc">bWIN</idno></item>
+            <item>
+               <idno type="stc">WIN2</idno>
+               <name>St. George's Chapter Library</name>
+               <placeName>Windsor Castle</placeName>
+               <idno type="estc">bWINg</idno></item>
+            <item>
+               <idno type="stc">WIS</idno>
+               <name>University of Wisconsin</name>
+               <placeName>Madison, WI</placeName>
+               <idno type="estc">nWU</idno></item>
+            <item>
+               <idno type="stc">WN</idno>
+               <name>Winchester College</name>
+               <idno type="estc">bWNs</idno></item>
+            <item>
+               <idno type="stc">WN2</idno>
+               <name>Winchester Cathedral</name>
+               <idno type="estc">bWNc</idno></item>
+            <item>
+               <idno type="stc">Wolfson, John</idno>
+               <placeName>New York City, NY</placeName>
+               <note>Private collection</note></item>
+            <item>
+               <idno type="stc">WOR</idno>
+               <name>Worcester Cathedral</name>
+               <idno type="estc">bWRc</idno></item>
+            <item>
+               <idno type="stc">WOR2</idno>
+               <note>= HP</note>
+               <idno type="estc">bLhe</idno></item>
+            <item>
+               <idno type="stc">WTL</idno>
+               <name>Alexander Turnbull Library</name>
+               <placeName>Wellington, New Zealand</placeName>
+               <idno type="estc">oZWTU</idno></item>
+            <item>
+               <idno type="stc">Y</idno>
+               <name>Yale University</name>
+               <placeName>New Haven, CT</placeName>
+               <idno type="estc">nCtY-BR</idno></item>
+            <item>
+               <idno type="stc">Y(Pequot)</idno>
+               <name>Pequot Deposit at Yale University</name>
+               <placeName>New Haven, CT</placeName>
+               <idno type="estc">nCtSoP</idno></item>
+            <item>
+               <idno type="stc">Y2</idno>
+               <name>Elizabethan Club, Yale University</name><placeName>New Haven, CT</placeName>
+               <idno type="estc">nCtY-EC</idno></item>
+            <item>
+               <idno type="stc">Y3</idno>
+               <note> = Y</note>
+               <idno type="estc">nCtY</idno></item>
+            <item>
+               <idno type="stc">YK</idno>
+               <name>York Minster</name>
+               <idno type="estc">bYc</idno></item>
+            <item>
+               <idno type="stc">YK2</idno>
+               <name>Bar Convent</name>
+               <placeName>York</placeName>
+               <idno type="estc">bYb</idno></item>
+            <item>
+               <idno type="stc">Z</idno>
+               <name>Zentralbibliothek</name>
+               <placeName>Zürich</placeName>
+               <idno type="estc">oSzZuZB</idno></item>
+         </list>
+      </body>
+   </text>
+</TEI>

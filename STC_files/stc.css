@@ -1,0 +1,59 @@
+@media print { .noprint { display:none; }}
+body { font-family: 'Times New Roman'; background-color: gray; font-size:13pt; margin:10px 0px; padding:0px;}
+br { clear:both; }
+
+.hidden {display:none;}
+.pageBlock { width:680px; background-color: white; padding:10px; margin-left:70px; border:1px solid black;}
+.textBlock { position:relative; background-color: white; width:550px; padding:15px; padding-left: 100px;  }
+hr { position:relative; left: -50px; }
+.pageBorder { width:550px; height:1px; margin-top:50px; }
+.pageHeading { width:420px; padding:10px; padding-top:30px; margin: 20px 0px; border-bottom:3px solid black; font-style:normal; font-weight: normal; color:black; page-break-before:always; }
+.pageNbr { float:left; width:75px; text-align:left; }
+.pageTitle { float:left; width:240px; text-align:center; font-style:italic; font-size:14pt; }
+.pageDesc { float:right; text-align:right; font-size:8pt; font-variant:small-caps; } 
+
+.lineNbr { position:absolute; left:475px; top:auto; width:auto; font-style:normal; font-weight:normal; font-size:12pt; line-height:20px;  }
+.header { display:inline-block; float:left; text-align:left; width:auto; padding-left: 30px; padding-right:0px; }
+.name { font-weight: normal; padding-left:10px; }
+.stc {font-weight: bold; padding-right:5px; }
+.estc {color:green }
+
+.right { display:inline-block; float:right; text-align:right; width:auto; padding-right:60px; }
+.rightMargin { border:0px solid red; position:absolute;float:right; text-align:right; width:auto; padding-right:60px; right: 005px; }
+.left { display:inline-block; float:left; text-align:left; width:auto; padding-left: 30px; padding-right:0px; }
+.centered { display:inline-block; float: left; text-align:center; width:440px; padding: 0px; }
+.centred { display:inline-block; text-align:center; width:430px; }
+.indentRunOn { padding-left:30px; }
+.indentSplit { padding-left:00px; }
+.indentInline { padding-left:10px; }
+.indentClosing { padding-left:50px; }
+.indentRefrain { padding-left:50px; }
+.indent { padding-left:8px; }
+.inline { padding-left:0px; } 
+
+.docTitle {text-align:center; font-style:italic; font-size:40px;}
+.titlePage { text-align: center; width: 100% }
+.xhead { text-align: center; width: 100% }
+.xhead { display:inline-block; float: left; text-align:center; width:440px; }
+.trailer { font-style: italic; }
+.note { font-style:italic; padding:5px; }
+.bold { font-weight: bold; }
+.italic { font-style: italic; }
+.roman { font-style: normal; }
+.underlined { text-decoration: underline; }
+.underlining { text-decoration: underline; }
+.superscript { vertical-align: super; }
+.indented { padding-left: 60px; } 
+
+.red { color:red; }
+.orange { color:orange; }
+.yellow { color:yellow; }
+.blue { color:blue; }
+.black { color:black; }
+.gray { color:gray; }
+.bckblue { background-color:blue; }
+.orangeBack { background-color:orange; }
+.yellowBack { background-color:yellow; }
+.goldBack { background-color:gold; }
+.grBack { background-color:goldenrod; }
+.grayBack { background-color:gainsboro; }
