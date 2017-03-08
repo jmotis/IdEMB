@@ -10,11 +10,19 @@ The folder "XML_files" contains XML files of Book History article citations (aka
 The folder "STC_files" contains files that enable a user to translate STC location codes into repository names, as described in http://idemb.org/data/whats-that-code-again/
 
 The folder "python_files" contains code for search functions that were written to be run on full-text JSON files provided to IdEM B by JSTOR. These JSON files (or any similar files newly requested from JSTOR) should be placed in the same folder as the python files before attempting to run the python files.
+
 "find_librarians.py" will search for a set of predetermined strings
+
 "find_librarians_generalized.py" will solicit user input as to what string to search for. 
+
 "permissions.py" is a simplified version of "find_librarians.py" that reduces the noise in searching for permissions statements in image captions
+
 "EEBO.py" will search for two forms of references to each of three different commonly used online databases of primary source material, Early English Books Online (and its related microfilm), Eighteenth Century Collections Online, and British History Online.
+
 "STC.py" will search for common print-based bibliographcial catalogues
+
 "shelfmark.py" will search for the term 'shelfmark' and 'classmark'
+
 "appendices.py" attempts to search for primary source lists at the end of works; best as a finding aid rather than to gather information from the snippet function.
+
 "debt.py" will search for statements of obligation; noise level is moderately high
