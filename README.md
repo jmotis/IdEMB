@@ -2,6 +2,8 @@
 
 Code and data associated with the Mellon-funded CLIR microgrant "A Text By Any Other Citation: Identifying Early Modern Printed Books"
 
+This code was written using python version 2.x and will not run with python 3.x unless print statements are altered to include ( )
+
 This code and data is made available under a CC BY-SA 4.0 license: http://creativecommons.org/licenses/by-sa/4.0/
 
 ------------
